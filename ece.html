@@ -1,0 +1,2528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="extra-images/setgoi_logo_32x26.png" rel="icon">
+    <title>Electronics and Communications Engineering</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Full Calender CSS -->
+    <link href="css/fullcalendar.css" rel="stylesheet" />
+    <!-- Owl Carousel CSS -->
+    <link href="css/owl.carousel.css" rel="stylesheet" />
+    <!-- Pretty Photo CSS -->
+    <link href="css/prettyPhoto.css" rel="stylesheet" />
+    <!-- Bx-Slider StyleSheet CSS -->
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <!-- Font Awesome StyleSheet CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="svg/style.css" rel="stylesheet" />
+    <!-- Widget CSS -->
+    <link href="css/widget.css" rel="stylesheet" />
+    <!-- Typography CSS -->
+    <link href="css/typography.css" rel="stylesheet" />
+    <!-- Shortcodes CSS -->
+    <link href="css/shortcodes.css" rel="stylesheet" />
+    <!-- Custom Main StyleSheet CSS -->
+    <link href="style.css" rel="stylesheet" />
+    <!-- Color CSS -->
+    <link href="css/color.css" rel="stylesheet" />
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet" />
+    <!-- SELECT MENU -->
+    <link href="css/selectric.css" rel="stylesheet" />
+    <!-- SIDE MENU -->
+    <link rel="stylesheet" href="css/jquery.sidr.dark.css" />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D1HNFKQS2C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D1HNFKQS2C');
+</script>
+  </head>
+
+  <body>
+    <!--KF KODE WRAPPER WRAP START-->
+    <div class="kode_wrapper">
+      <!-- register Modal -->
+      <div class="modal fade" id="reg-box" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="modal-content">
+            <!--SIGNIN AS USER START-->
+            <div class="user-box">
+              <h2>Sign up as a User</h2>
+              <!--FORM FIELD START-->
+              <div class="form">
+                <div class="input-container">
+                  <input type="text" placeholder="Name" />
+                  <i class="fa fa-user"></i>
+                </div>
+                <div class="input-container">
+                  <input type="text" placeholder="E-mail" />
+                  <i class="fa fa-envelope-o"></i>
+                </div>
+                <div class="input-container">
+                  <input type="password" placeholder="Password" />
+                  <i class="fa fa-unlock"></i>
+                </div>
+                <div class="input-container">
+                  <label>
+                    <span class="radio">
+                      <input type="checkbox" name="foo" value="1" checked />
+                      <span class="radio-value" aria-hidden="true"></span>
+                    </span>
+                    <span>Remember me</span>
+                  </label>
+                </div>
+                <div class="input-container">
+                  <button class="btn-style">Sign Up</button>
+                </div>
+              </div>
+              <!--FORM FIELD END-->
+              <!--OPTION START-->
+              <div class="option">
+                <h5>Or Using</h5>
+              </div>
+              <!--OPTION END-->
+              <!--OPTION START-->
+              <div class="social-login">
+                <a href="#" class="google"
+                  ><i class="fa fa-google-plus"></i>Google Account</a
+                >
+                <a href="#" class="facebook"
+                  ><i class="fa fa-facebook"></i>Facebook Account</a
+                >
+              </div>
+              <!--OPTION END-->
+            </div>
+            <!--SIGNIN AS USER END-->
+            <div class="user-box-footer">
+              Already have an account? <a href="#">Sign In</a>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <!-- register Modal end-->
+
+      <!-- SIGNIN MODEL START -->
+      <div class="modal fade" id="signin-box" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="modal-content">
+            <div class="user-box">
+              <h2>Sign In</h2>
+              <!--FORM FIELD START-->
+              <div class="form">
+                <div class="input-container">
+                  <input type="text" placeholder="E-mail" />
+                  <i class="fa fa-envelope-o"></i>
+                </div>
+                <div class="input-container">
+                  <input type="password" placeholder="Password" />
+                  <i class="fa fa-unlock"></i>
+                </div>
+                <div class="input-container">
+                  <label>
+                    <span class="radio">
+                      <input type="checkbox" name="foo" value="1" checked />
+                      <span class="radio-value" aria-hidden="true"></span>
+                    </span>
+                    <span>Remember me</span>
+                  </label>
+                </div>
+                <div class="input-container">
+                  <button class="btn-style">Sign In</button>
+                </div>
+              </div>
+              <!--FORM FIELD END-->
+              <!--OPTION START-->
+              <div class="option">
+                <h5>Or Using</h5>
+              </div>
+              <!--OPTION END-->
+              <!--OPTION START-->
+              <div class="social-login">
+                <a href="#" class="google"
+                  ><i class="fa fa-google-plus"></i>Google Account</a
+                >
+                <a href="#" class="facebook"
+                  ><i class="fa fa-facebook"></i>Facebook Account</a
+                >
+              </div>
+              <!--OPTION END-->
+            </div>
+            <div class="user-box-footer">
+              <p>
+                Don't have an account?<br /><a href="#">Sign up as a User</a>
+              </p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <!-- SIGNIN MODEL END -->
+
+      <!--HEADER START-->
+      <header id="header_2">
+        <!--kode top bar start-->
+        <div class="top_bar_2">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="pull-left">
+                  <em class="contct_2"
+                    ><i class="fa fa-phone"></i>
+                    <a href="tel:08444030010" style="color: #fff"
+                      >Call Us on 08444030010</a
+                    ></em
+                  >
+                </div>
+                <div class="pull-left">
+                  <em class="contct_2"
+                    ><i class="fa fa-envelope"></i
+                    ><a href="mailto:admission@setgoi.com" style="color: #fff"
+                      >admission@setgoi.com</a
+                    >
+                  </em>
+                </div>
+              </div>
+              <div class="col-md-7">
+                <ul class="login_wrap">
+                  <!-- <li>
+                    <a href="#" data-toggle="modal" data-target="#reg-box"
+                      ><i class="fa fa-user"></i>Register</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" data-toggle="modal" data-target="#signin-box"
+                      ><i class="fa fa-sign-in"></i>Sign In</a
+                    >
+                  </li> -->
+                </ul>
+                <ul class="top_nav">
+                  <li><a href="feedback.html">Feedback</a></li>
+                  <li><a href="events.html">Event</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="contactus -2.html">contact us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--kode top bar end-->
+
+        <!--kode navigation start-->
+        <div class="kode_navigation">
+          <!-- <div id="mobile-header">
+            <a id="responsive-menu-button" href="#sidr-main"
+              ><i class="fa fa-bars"></i
+            ></a>
+          </div> -->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-2">
+                <div class="logo_wrap">
+                  <a href="index.html"
+                    ><img
+                      src="extra-images/SETGOI TOP LOGO 1140x320px.png"
+                      alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="col-md-10">
+                <div id="mySidepanel" class="sidepanel">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                  <ul>
+                    <li><a href="index.html">home</a></li>
+                     <li>
+  <a href="#" class="collapsible">About Us <i class="fa fa-caret-down"></i></a>
+<div class="content">
+  <ul>
+    <li><a href="about.html">About SETGOI</a></li>
+    <li><a href="leadership.html">Leadership</a></li>
+    <li>
+      <a href="governing_body.html">Governing Body</a>
+    </li>
+    <li>
+      <a href="affiliation.html"
+        >Affiliation & Accreditation</a
+      >
+    </li>
+    <li><a href="committee.html">Committees </a></li>
+    <li><a href="#">Mandatory Disclosure </a></li>
+    <!-- <li><a href="#">Rules and Regulations </a></li> -->
+  </ul>
+</div>
+                  
+                    </li>
+
+					<li>
+						<a href="#" class="collapsible">People 
+							<i class="fa fa-caret-down"></i>
+						</a>
+						<div class="content">
+							<ul>
+								<li><a href="faculty.html">Faculties</a></li>
+								<li onclick="click()">
+									<a href="#" class="collapsible">
+										Students<i class="fa fa-caret-down"></i></a>
+										<div class="content">
+											<ul>
+												<li><a href="#">Student of the Year</a></li>
+																<li><a href="#">Rank Holders</a></li>
+                                <li><a href="studentcorner.html">Student Corner </a></li>>
+											</ul>
+										</div>
+									
+								</li>
+								
+								<li><a href="#">Alumni</a></li>
+															
+							</ul>
+						</div>	
+					</li>
+
+                    <li>
+                      <a href="#" class="collapsible"
+                        >Academics
+                        <i class="fa fa-caret-down"></i>
+                      </a>
+                      <div class="content">
+                        <ul>
+                          <li onclick="click()">
+                     
+                           <a href="#" class="collapsible">
+                            School of Engineering   <i class="fa fa-caret-right"></i></a>
+                            <div class="content">
+                              <ul>
+                                <li><a href="ce.html">Civil Engineering</a></li>
+                                <li>
+                                  <a href="ee.html">Electrical Engineering </a>
+                                </li>
+                                <li>
+                                  <a href="me.html">Mechanical Engineering </a>
+                                </li>
+                                <li>
+                                  <a href="cse.html"
+                                    >Computer Science and Engineering</a
+                                  >
+                                </li>
+                            
+                                <li>
+                                  <a href="ece.html"
+                                    >Electronics and Communications Engineering</a
+                                  >
+                                </li>
+                            
+                                <li>
+                                  <a href="eee.html"
+                                    >Electrical and Electronics Engineering</a
+                                  >
+                                </li>
+                           
+                              </ul>
+                            </div>
+                         
+                          </li>
+                          <li><a href="b_pharm.html">School of Pharmacy</a></li>
+                      
+                          <li>
+                            <a href="rrsa.html"
+                              >Rani Rashmoni School of Architecture (RRSA)</a
+                            >
+                          </li>
+                          <li><a href="faculty.html">Meet Our Faculty</a></li>
+                          <li><a href="academic calander.html">Academic Calendar</a></li>
+                        </ul>
+                      </div>
+                   
+                    </li>
+                    <li>
+                      <a href="#" class="collapsible"
+                        >Admissions
+                        <i class="fa fa-caret-down"></i>
+                      </a>
+                      <div class="content">
+                        <ul>
+                          <li><a href="Admission Policy.html">Admission Policy </a></li>
+                          <li><a href="files/setgoi-prospectus_2022.pdf" target="_blank">Prospectus </a></li>
+                          <li>
+                            <a href="Courses and Eligibilities.html"
+                              >Courses and Eligibility</a
+                            >
+                          </li>
+                          <li><a href="Fees Structure.html">Fees Structure </a></li>
+                          <li><a href="Scholarships.html">Scholarships </a></li>
+                          <li><a href="FAQs.html">FAQs </a></li>
+                        </ul>
+                      </div>
+                     
+                    </li>
+                    <li>
+                      <a href="#" class="collapsible"
+                        >Placements & Internship  <i class="fa fa-caret-down"></i
+                      ></a>
+                      <div class="content">
+                        <ul>
+                          <li><a href="campus hiring.html">Campus Hiring</a></li>
+                          <li><a href="internship.html">Internship</a></li>
+                          <li><a href="capacity building.html">Capacity Building</a></li>
+                        </ul>
+                      </div>
+                    
+                    </li>
+                    <li><a href="#" class="collapsible">research <i class="fa fa-caret-down"></i
+						></a>
+						<div class="content">
+						<ul>
+							<li><a href="research_ce.html">Civil Engineering</a></li>
+							<li><a href="research_ee.html">Electrical Engineering & Electrical and Electronics Engineering</a></li>
+							<li><a href="research_me.html">Mechanical Engineering</a></li>
+							<li><a href="research_cse.html">Computer Science and Engineering</a></li>
+							<li><a href="research_ece.html">Electronics and Communications Engineering</a></li>
+							<li><a href="research_architechture.html">Architecture</a></li>
+							<li><a href="research_pharma.html">Pharmacy</a></li>
+							<li><a href="research_sc_hum.html">Science and Humanities</a></li>
+						</ul>
+					   </div>
+					  </li>
+                    <li>
+                      <a href="#" class="collapsible"
+                        >Life@SETGOI
+                        <i class="fa fa-caret-down"></i>
+                      </a>
+            
+                        <ul>
+                          <!-- <li><a href="404.html">Achievements & Stories </a></li> -->
+                          <li><a href="events.html">Events </a></li>
+                          <li><a href="campus facilities.html">Campus Facilities </a></li>
+                          
+                          <li><a href="files/codeofconduct.pdf" target="_blank">Code of Conduct </a></li>
+                        </ul>
+             
+                   
+                    </li>
+                    <!-- <li>
+                      <a href="#" class="collapsible"
+                        >Student Performance
+                        <i class="fa fa-caret-down"></i>
+                      </a>
+                      <div class="content">
+                        <ul>
+                          <li><a href="#">Student of the year </a></li>
+                          <li><a href="#">Overall Results </a></li>
+                          <li><a href="#">Rank holders </a></li>
+                        </ul>
+                      </div>
+                 
+                    </li> -->
+                    <!-- <li>
+                      <a href="#" class="collapsible"
+                        >Alumni
+                        <i class="fa fa-caret-down"></i>
+                      </a>
+                      <div class="content">
+                        <ul>
+                          <li><a href="#">Overview</a></li>
+                          <li><a href="#">Alumni Notice </a></li>
+                          <li><a href="#">Events </a></li>
+                        </ul>
+                      </div>
+                   
+                    </li> -->
+                    <li>
+                      <a href="#" class="collapsible"
+                        >Innovation cell
+                        <i class="fa fa-caret-down"></i>
+                      </a>
+                      <div class="content">
+                        <ul>
+                          <li><a href="inovation cell.html">IIC Council</a></li>
+                          <li><a href="iic.html" target="_blank">programmes & Events</a></li>
+                        </ul>
+                      </div>
+                     
+                    </li>
+                    <!-- <li><a href="inovation cell.html">Innovation cell</a></li> -->
+                  </ul>
+                </div>
+                
+                <button class="openbtn" onclick="openNav()">☰</button>  
+             
+                
+                <script>
+                function openNav() {
+                  document.getElementById("mySidepanel").style.width = "250px";
+                }
+                
+                function closeNav() {
+                  document.getElementById("mySidepanel").style.width = "0";
+                }
+                </script>
+                <!--kode nav_2 start-->
+                <div class="nav_2" id="navigation">
+                  <ul></ul>
+                </div>
+                <!--kode nav_2 end-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--kode navigation end-->
+
+        <!--kode blue navigation start-->
+        <div class="kode_navigation_3">
+          <!-- <div id="mobile-header">
+            <a id="responsive-menu-button-sub" href="#sidr-main"
+              ><i class="fa fa-bars"></i
+            ></a>
+          </div> -->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <!--kode nav_2 start-->
+                <div class="nav_3" id="navigation-sub">
+                  <ul>
+                    <li><a href="index.html">home</a></li>
+
+                    <li>
+                      <a href="#"
+                        >About Us
+                        <i class="fa fa-caret-down"></i>
+                      </a>
+                      <ul>
+                        <li><a href="about.html">About SETGOI</a></li>
+                        <li><a href="leadership.html">Leadership</a></li>
+                        <li>
+                          <a href="governing_body.html">Governing Body</a>
+                        </li>
+                        <li>
+                          <a href="affiliation.html"
+                            >Affiliation & Accreditation</a
+                          >
+                        </li>
+                        <li><a href="committee.html">Committees </a></li>
+                        <li><a href="#">Mandatory Disclosure </a></li>
+                        <!-- <li><a href="#">Rules and Regulations </a></li> -->
+                      </ul>
+                    </li>
+
+					<li>
+						<a href="#">People 
+							<i class="fa fa-caret-down"></i>
+						</a>
+						<ul>
+							<li><a href="faculty.html">Faculties</a></li>
+							<li><a href="#">Students <i class="fa fa-caret-right"></i></a> 
+								<ul id="dropdown">
+                  <li><a href="#">Student of the Year</a></li>
+                  <li><a href="#">Rank Holders</a></li>
+                  <li><a href="studentcorner.html">Student Corner </a></li>
+								</ul>
+							</li>
+							<li><a href="#">Alumni</a></li>							
+						</ul>
+					</li>
+
+                    <li>
+                      <a href="#"
+                        >Academics
+                        <i class="fa fa-caret-down"></i>
+                      </a>
+                      <ul>
+                        <li onclick="click()">
+                          <a href="#" class="normal">
+                            School of Engineering
+                            <i class="fa fa-caret-right"></i>
+                         </a>
+                         <a href="#" class="responsive">
+                           <i class="fa fa-caret-left"></i>
+                          School of Engineering
+                         
+                       </a>
+                          <ul id="dropdown">
+                            <li><a href="ce.html">Civil Engineering</a></li>
+                            <li>
+                              <a href="ee.html">Electrical Engineering </a>
+                            </li>
+                            <li>
+                              <a href="me.html">Mechanical Engineering </a>
+                            </li>
+                            <li>
+                              <a href="cse.html"
+                                >Computer Science and Engineering</a
+                              >
+                            </li>
+                        
+                            <li>
+                              <a href="ece.html"
+                                >Electronics and Communications Engineering</a
+                              >
+                            </li>
+                        
+                            <li>
+                              <a href="eee.html"
+                                >Electrical and Electronics Engineering</a
+                              >
+                            </li>
+                       
+                          </ul>
+                        </li>
+                        <li><a href="b_pharm.html">School of Pharmacy</a></li>
+                    
+                        <li>
+                          <a href="rrsa.html"
+                            >Rani Rashmoni School of Architecture (RRSA)</a
+                          >
+                        </li>
+                        <!-- <li><a href="faculty.html">Meet Our Faculty</a></li> -->
+                        <li><a href="academic calander.html">Academic Calendar</a></li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <a href="#"
+                        >Admissions
+                        <i class="fa fa-caret-down"></i>
+                      </a>
+                      <ul>
+                        <li><a href="Admission Policy.html">Admission Policy </a></li>
+                        <li><a href="files/setgoi-prospectus_2022.pdf" target="_blank">Prospectus </a></li>
+                        <li>
+                          <a href="Courses and Eligibilities.html"
+                            >Courses and Eligibility</a
+                          >
+                        </li>
+                        <li><a href="Fees Structure.html">Fees Structure </a></li>
+                        <li><a href="Scholarships.html">Scholarships </a></li>
+                        <li><a href="FAQs.html">FAQs </a></li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <a href="#"
+                        >Placements & Internship<i class="fa fa-caret-down"></i
+                      ></a>
+                      <ul>
+                        <li><a href="campus hiring.html">Campus Hiring</a></li>
+                        <li><a href="internship.html">Internship</a></li>
+                        <li><a href="capacity building.html">Capacity Building</a></li>
+                      </ul>
+                    </li>
+
+                    <li><a href="#">research <i class="fa fa-caret-down"></i
+						></a>
+						<ul>
+							<li><a href="research_ce.html">Civil Engineering</a></li>
+							<li><a href="research_ee.html">Electrical Engineering & Electrical and Electronics Engineering</a></li>
+							<li><a href="research_me.html">Mechanical Engineering</a></li>
+							<li><a href="research_cse.html">Computer Science and Engineering</a></li>
+							<li><a href="research_ece.html">Electronics and Communications Engineering</a></li>
+							<li><a href="research_architechture.html">Architecture</a></li>
+							<li><a href="research_pharma.html">Pharmacy</a></li>
+							<li><a href="research_sc_hum.html">Science and Humanities</a></li>
+						</ul>
+					  </li>
+
+                    <li>
+                      <a href="#"
+                        >Life@SETGOI
+                        <i class="fa fa-caret-down"></i>
+                      </a>
+                      <ul>
+                        <!-- <li><a href="404.html">Achievements & Stories </a></li> -->
+                        <li><a href="events.html">Events </a></li>
+                        <li><a href="campus facilities.html">Campus Facilities </a></li>
+                        <!-- <li><a href="studentcorner.html">Student Corner </a></li> -->
+                        <li><a href="files/codeofconduct.pdf">Code of Conduct </a></li>
+                      </ul>
+                    </li>
+
+                    <!-- <li>
+                      <a href="#"
+                        >Student Performance
+                        <i class="fa fa-caret-down"></i>
+                      </a>
+                      <ul>
+                        <li><a href="#">Student of the year </a></li>
+                        <li><a href="#">Overall Results </a></li>
+                        <li><a href="#">Rank holders </a></li>
+                      </ul>
+                    </li> -->
+
+                    <!-- <li>
+                      <a href="#"
+                        >Alumni
+                        <i class="fa fa-caret-down"></i>
+                      </a>
+                      <ul>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Alumni Notice </a></li>
+                        <li><a href="#">Events </a></li>
+                      </ul>
+                    </li> -->
+                    <li>
+                      <a href="#"
+                        >Innovation cell
+                        <i class="fa fa-caret-down"></i>
+                      </a>
+                      <ul>
+                        <li><a href="inovation cell.html">IIC Council</a></li>
+                        <li><a href="iic.html" target="_blank">programmes & Events</a></li>
+                      </ul>
+                    </li>
+                    <!-- <li><a href="inovation cell.html">Innovation cell</a></li> -->
+                  </ul>
+                </div>
+                <!--kode nav_2 end-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--kode blue navigation end-->
+      </header>
+      <!--HEADER END-->
+
+      <!--Banner Wrap Start-->
+      <div class="kf_inr_banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <!--KF INR BANNER DES Wrap Start-->
+              <div class="kf_inr_ban_des">
+                <div class="inr_banner_heading">
+                  <h3>Electronics and Communications Engineering</h3>
+                </div>
+
+                <div class="kf_inr_breadcrumb">
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>Academics</li>
+                    <li>
+                      <a href="ece.html">Electronics and Communications Engineering</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!--KF INR BANNER DES Wrap End-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+      <!--Banner Wrap End-->
+
+      <!--Content Wrap Start-->
+      <div class="kf_content_wrap">
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <!-- COURSES DETAIL WRAP START -->
+                <div class="kf_courses_detail_wrap">
+                  <div class="courses_detail_heading">
+
+                  </div>
+                  <div class="course_detail_thumbnail">
+                    <video width="100%" controls="control">
+                   
+                      <source src="video/ece video.mp4" type=video/mp4>
+                    </video>
+                  </div>
+
+                  <!-- COURSES DETAIL TABS WRAP START -->
+                  <div class="kf_courses_tabs">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                      <li role="presentation" class="active">
+                        <a
+                          href="#programmedetails"
+                          aria-controls="coursedetails"
+                          role="tab"
+                          data-toggle="tab"
+                          >Programme Details</a
+                        >
+                      </li>
+                      <li role="presentation">
+                        <a
+                          href="#curriculum"
+                          aria-controls="coursestructure"
+                          role="tab"
+                          data-toggle="tab"
+                          >Curriculum
+                        </a>
+                      </li>
+                      <li role="presentation">
+                        <a
+                          href="#facilities"
+                          aria-controls="entryrequirment"
+                          role="tab"
+                          data-toggle="tab"
+                          >Facilities
+                        </a>
+                      </li>
+                      <li role="presentation">
+                        <a
+                          href="#activities"
+                          aria-controls="placements"
+                          role="tab"
+                          data-toggle="tab"
+                          >Activities</a
+                        >
+                      </li>
+                      <li role="presentation">
+                        <a
+                          href="#vision"
+                          aria-controls="coursedetails"
+                          role="tab"
+                          data-toggle="tab"
+                          >Vision & Mission</a
+                        >
+                      </li>
+                      <li role="presentation">
+                        <a
+                          href="#po"
+                          aria-controls="coursedetails"
+                          role="tab"
+                          data-toggle="tab"
+                          >PO PEO PSO</a
+                        >
+                      </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+      
+                       <!-- Tab panes -->
+                  <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="programmedetails">
+                      <!-- COURSES DETAIL DES START -->
+                      <div class="kf_courses_detail_des">
+                        <div class="course_heading">
+                          <h3>Introduction to the Undergraduate Programme</h3>
+                        </div>
+                        <p class="text-justify">
+                          The Department of Electronics and Communication Engineering at SETGOI is committed to generating globally competitive and employable engineers. The programme provides an appropriate and fulfilling atmosphere for students to explore ideas, foster a spirit of curiosity, and nurture a drive for excellence through seminars, live projects, and case studies. The ideal Industry-Academia environment provides students with practical hands-on sessions and a dynamic teaching training course, culminating in a vibrant and successful community of professionals capable of developing both concepts and skills required for the design, analysis, manufacturing, and maintenance of various types of electronics and communication systems. The program's dedicated faculty strives to impart to students the most recent breakthroughs in VLSI & Embedded Technology, Microwave and Digital Communication System Design, Automation & Robotics, Quantum InformationComputing, Artificial Intelligence, Signal Processing Techniques and its use in different sectors.
+                        </p>
+                        <!-- <p>
+                            Sed ut imperdiet nisi. Proin condimentum fermentum
+                            nunc. Etiam pharetra erat sed fermentum velit mauris
+                            egestas quam ut aliquam massa nisl quis neque.
+                            Suspendisse in orci enim.Etiam pharetra erat sed
+                            fermentum feugiat velit mauris egestas quam ut
+                            aliquam massa nisl quis neque
+                          </p> -->
+                      </div>
+                      <!-- COURSES DETAIL DES END -->
+
+                      <!-- STUDY TABLE WRAP START -->
+                      <div class="study_table_wrap" style="overflow:auto ;">
+                        <h6>Who is the Programme for?</h6>
+                        <p>The programme is designed for those who are interested to make a career in-</p>
+
+                        <!--  TABLE  START -->
+                        <!-- <table class="table table-bordered">
+                            <thead>
+                              <tr>
+                                <th>Qualification</th>
+                                <th>Length</th>
+                                <th>Code</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Bsc (Hons)</td>
+                                <td>3 years full time</td>
+                                <td>CDX3</td>
+                              </tr>
+                              <tr>
+                                <td>Bsc</td>
+                                <td>4 years full time</td>
+                                <td>CDX4</td>
+                              </tr>
+                            </tbody>
+                          </table> -->
+                        <!--  TABLE  END -->
+                        <!-- <h6>Major Career Opportunities</h6> -->
+                        <table class="table table-bordered">
+                          <thead>
+                            <tr class="center">
+                              <th>Major Career Opportunities</th>
+                              <th>Higher Education Opportunities</th>
+                              <th>Alternative Career Options</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>
+                                <ul>
+                                  <li>Antenna and Microwave circuit design, </li>
+                                  <br>
+                                  <li>Integrated Circuit (IC) design,</li>
+                                  <br>
+                                  <li>Medical image processing, </li>
+                                  <br>
+                                  <li>Signal Processing field,</li>
+                                  <br>
+                                  <li>IT/ITES Industry,</li>
+                                  <br>
+                                  <li>Telecommunication sector,</li>
+                                  <br>
+                                  <li>Real-world simulations,</li>
+                                  <br>
+                                  <li>Machine Learning Engineer,</li>
+                                  <br>
+                                  <li>Data Scientist,</li>
+                                  <br>
+                                  <li>Industrial Automation Sector, Robotics,<br> IoT, Artificial Intelligence</li>
+                                </ul>
+                              </td>
+                              <td>
+                                <ul>
+                                  <li>In India, M.E. / M. Tech<br> programmes from all IITs, NITs,<br> and other major universities.</li>
+                                    <br>
+                                    
+                                  <li>Integrated Ph.D. from reputed <br>institutions or universities.</li>
+                                  <br>
+                                  
+                                  <li>M.S programmes are offered by<br> many prestigious global<br> universities in all<br> specializations of Electronics and<br> Communication Engineering.</li>
+                                  <br>
+                                  <li>
+        
+                                    (Manufacturing/ Design/<br> Research/ Defense/ Any inter-<br>disciplinary domain).
+                                  </li>
+        
+                                </ul>
+                              </td>
+                            <td>
+                              <ul>
+                                <li>Management consulting</li>
+                                <br>
+                                <li>Finance, economics, and banking</li>
+                                <br>
+                                <li>Business analysis</li>
+                                <br>
+                                <li>Project management</li>
+                                <br>
+                                <li>Technical marketing and communications</li>
+                                <br>
+                                <li>Intellectual property management</li>
+                                <br>
+                                <li>Government and policy</li>
+                                <br>
+                                <li>Entrepreneurship</li>
+      
+                              </ul>
+                            </td>
+                            </tr>
+                            </tbody>
+                </table>
+                        <!--  -->
+                        <!-- <p>
+                            Suspendisse in orci enim.Etiam pharetra erat sed
+                            fermentum feugiat velit mauris egestas quam ut
+                            aliquam massa nisl quis neque fermentum feugiat
+                            velit.
+                          </p> -->
+                          <h6>Who will hire you?</h6>
+                          <ul>
+                            <li>Electronic Giants: Intel, AMD, Sony, Honeywell, Texas Instruments, Motorola, Samsung, Cisco, Toshiba, MU Sigma, Philips, Ericsson Global</li>
+                            <li>
+                            Government PSUs: Bharat Electronics, BSNL, DRDO, Defence Services, CSIR, ISRO, BARC, HAL, Indian Air Lines, Air India, Airport Authority of India, Indian Railways, BSNL / MNTL
+                            </li>
+                            <li>
+                              Software companies: Oracle, Deloitte, Cybage, Saankhya Labs, Microsoft(SMSG), Unisys Global, TCS, Wipro, IBM, S&P Capital IQ, Samsung R&D, Freescale, Societe Generale, Samsung Software India, Sapient Nitro, L&T IES, Mahindra & Mahindra, ABB, Comviva Technologies Ltd, Nomura, Mphasis, Toshiba Embedded Software (I) Private Ltd, iGATE PATNI, TATA ELXSI and many more.
+                            </li>
+                          </ul>
+                      </div>
+                      <!-- STUDY TABLE WRAP END -->
+
+                      <!-- STUDY TABLE WRAP START -->
+                      <div class="study_table_wrap">
+                        <!-- <h6>VISION</h6>
+
+                        <p>
+                          To be a globally acclaimed advanced center for Computer Science, and expanding the horizon of
+                          knowledge and defining excellence in human empowerment across nationalities and cultures
+                          around the world.
+                        </p> -->
+
+                        <!-- <h6>MISSION</h6>
+
+                        <p>
+                          Provide quality learning infrastructure and facilities to produce highly qualified graduates
+                          having sound knowledge in Computer Science & Engineering who would be able to promote
+                          creativity and innovation among learning and teaching communities at all levels.
+                        </p>
+                        <p>
+                          M2 – To promote research and consultancy activities by adapting new technologies within the
+                          ambit of Computer Science & Engineering to make living better for the humanity across the
+                          globe.
+                        </p> -->
+
+
+                      </div>
+                      <!-- STUDY TABLE WRAP END -->
+
+                      <!-- STUDY TABLE WRAP START -->
+                      <!-- <div class="study_table_wrap border_none">
+                          <h6>Student’s Destinations</h6>
+                          <p>
+                            Sed ut imperdiet nisi. Proin condimentum fermentum
+                            nunc. Etiam pharetra erat sed fermentum velit mauris
+                            egestas quam ut aliquam massa nisl quis neque.
+                            Suspendisse in orci enim.Etiam pharetra erat sed
+                            fermentum feugiat velit mauris egestas quam ut
+                            aliquam massa nisl quis neque
+                          </p>
+                        </div> -->
+                      <!-- STUDY TABLE WRAP END -->
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="curriculum">
+                      <!-- COURSES DETAIL DES START -->
+                      <div class="kf_courses_detail_des">
+                        <div class="course_heading">
+                          <!-- <h3>Curriculum</h3> -->
+                        </div>
+                        <!-- <p>
+                            Sed non mauris vitae erat consequat auctor eu in
+                            elit. Class aptent taciti sociosqu ad litora torquet
+                            per conubia nostra, per inceptos himenaeos. Mauris
+                            in erat justo. Nullam ac urna eu felis dapibus sit
+                            amet a augue. Sed non neque elit. Sed ut imperdiet
+                            nisi. Proin condimentum fermentum nunc. Etiam
+                            pharetra erat sed fermentum feugiat velit mauris
+                            egestas quam ut aliquam massa nisl quis neque.
+                            Suspendisse in orci enim.
+                          </p>
+                          <p>
+                            Sed ut imperdiet nisi. Proin condimentum fermentum
+                            nunc. Etiam pharetra erat sed fermentum velit mauris
+                            egestas quam ut aliquam massa nisl quis neque.
+                            Suspendisse in orci enim.Etiam pharetra erat sed
+                            fermentum feugiat velit mauris egestas quam ut
+                            aliquam massa nisl quis neque
+                          </p> -->
+                      </div>
+                      <!-- COURSES DETAIL DES END -->
+
+                      <!-- STUDY TABLE WRAP START -->
+                      <div class="study_table_wrap" style="overflow:auto ;">
+                        <h6 class="center">Curriculum Structure</h6>
+                        <!--  TABLE  START -->
+                        <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th>Sl No.</th>
+                              <th>Category</th>
+                              <th>Breakup of Credits</th>
+                              <th>Credit Distribution %</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>1.</td>
+                              <td>Humanities & Social Sciences + Management Courses</td>
+                              <td>9</td>
+                              <td>5.6</td>
+                            </tr>
+                            <tr>
+                              <td>2.</td>
+                              <td>Basic Science Courses</td>
+                              <td>28</td>
+                              <td>17.3</td>
+                            </tr>
+                            <tr>
+                              <td>3.</td>
+                              <td>Engineering Science Courses</td>
+                              <td>23</td>
+                              <td>14.2</td>
+                            </tr>
+                            <tr>
+                              <td>4.</td>
+                              <td>Professional Core Courses</td>
+                              <td>49.5</td>
+                              <td>30.7</td>
+                            </tr>
+                            <tr>
+                              <td>5.</td>
+                              <td>Project / Internship</td>
+                              <td>16</td>
+                              <td>9.9</td>
+                            </tr>
+                            <tr>
+                              <td>6.</td>
+                              <td>Professional Elective Courses</td>
+                              <td>24</td>
+                              <td>14.9</td>
+                            </tr>
+                            <tr>
+                              <td>7.</td>
+                              <td>Open Elective Courses</td>
+                              <td>12</td>
+                              <td>7.4</td>
+                            </tr>
+                            <tr>
+                              <td>8.</td>
+                              <td>Mandatory Courses</td>
+                              <td>0</td>
+                              <td>0</td>
+                            </tr>
+                           
+                            <tr>
+             
+                              <td colspan="2">Total Credits</td>
+                              <td>161.5</td>
+                              <td>100</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <h6>Curriculum Details</h6>
+                        <div class="study_table_details_buttons">
+                          <ul>
+                            <li>
+                              <span>
+                                <form method="get" action="ece pdfs/electronics comunication first year.pdf" target="_blank">
+                                  <button type="submit">
+
+
+                                  <div class="buttoncontent2">
+                                    First Year
+
+
+                                  </div>
+
+                                  <div class="icon2">
+                                    DOWNLOAD NOW
+                                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                                  </div>
+
+
+
+
+                                  </button>
+                                </form>
+                              </span>
+
+                            </li>
+                            <li>
+                            
+                              <span>
+                                <form method="get" action="ece pdfs/electronics comunication sem 3.pdf" target="_blank">
+                                  <button type="submit">
+
+
+                                  <div class="buttoncontent">
+                                    3rd Semester
+
+
+                                  </div>
+
+                                  <div class="icon">
+                                    DOWNLOAD NOW
+                                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                                  </div>
+
+
+
+
+                                  </button>
+                                </form>
+                              </span>
+                            </li>
+                            <li>
+                           
+                              <span>
+                                <form method="get" action="ece pdfs/electronics comunication sem 4.pdf" target="_blank">
+                                  <button type="submit">
+
+
+                                  <div class="buttoncontent">
+                                    4th Semester
+
+
+                                  </div>
+
+                                  <div class="icon">
+                                    DOWNLOAD NOW
+                                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                                  </div>
+
+
+
+
+                                  </button>
+                                </form>
+                              </span>
+                            </li>
+                            <li>
+                            
+                              <span>
+                                <form method="get" action="ece pdfs/electronics comunication sem 5.pdf" target="_blank">
+                                  <button type="submit">
+
+
+                                  <div class="buttoncontent">
+                                    5th Semester
+
+
+                                  </div>
+
+                                  <div class="icon">
+                                    DOWNLOAD NOW
+                                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                                  </div>
+
+
+
+
+                                  </button>
+                                </form>
+                              </span>
+                            </li>
+                            <li>
+                            
+                              <span>
+                                <form method="get" action="ece pdfs/electronics comunication sem 6.pdf" target="_blank">
+                                  <button type="submit">
+
+
+                                  <div class="buttoncontent">
+                                    6th Semester
+
+
+                                  </div>
+
+                                  <div class="icon">
+                                    DOWNLOAD NOW
+                                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                                  </div>
+
+
+
+
+                                  </button>
+                                </form>
+                              </span>
+                            </li>
+                            <li>
+                            
+                              <span>
+                                <form method="get" action="ece pdfs/electronics comunication sem 7.pdf" target="_blank">
+                                  <button type="submit">
+
+
+                                  <div class="buttoncontent">
+                                    7th Semester
+
+
+                                  </div>
+
+                                  <div class="icon">
+                                    DOWNLOAD NOW
+                                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                                  </div>
+
+
+
+
+                                  </button>
+                                </form>
+                              </span>
+                            </li>
+                            <li>
+                            
+                              <span>
+                                <form method="get" action="ece pdfs/electronics comunication sem 8.pdf" target="_blank">
+                                  <button type="submit">
+
+
+                                  <div class="buttoncontent">
+                                    8th Semester
+
+
+                                  </div>
+
+                                  <div class="icon">
+                                    DOWNLOAD NOW
+                                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                                  </div>
+
+
+
+
+                                  </button>
+                                </form>
+                              </span>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <!--  TABLE  END -->
+                        <!-- <h6>English Education Modules</h6>
+                          <p>
+                            Suspendisse in orci enim.Etiam pharetra erat sed
+                            fermentum feugiat velit mauris egestas quam ut
+                            aliquam massa nisl quis neque fermentum feugiat
+                            velit.
+                          </p> -->
+                      </div>
+                      <!-- STUDY TABLE WRAP END -->
+
+                      <!-- STUDY TABLE WRAP START -->
+                      <!-- <div class="study_table_wrap">
+                          <h6>Projects & Research Intrests</h6>
+
+                          <p>
+                            This is Photoshop's version of Lorem Ipsum. Proin
+                            gravida nibh vel velit auctor aliquet. Aenean lorem
+                            quis bibendum auctor nisi elit consequat ipsum nec
+                            sagittis sem nibh id elit. Duis sed odio sit amet
+                            nibh vulputate cursus a sit amet mauris. Morbi
+                            accumsan ipsum velit. Nam nec tellus a odio
+                            tincidunt auctor a ornare odio. Sed non mauris vitae
+                            erat consequat auctor eu in elit. Class aptent
+                            taciti sociosqu ad litora torquent per conubia
+                            nostra per inceptos himenaeos.
+                          </p>
+
+                          <p>
+                            <b>Nam nec tellus a odio tincidunt :</b> auctor a
+                            ornare odio. Sed non mauris vitae erat consequat
+                            auctor eu in elit. Class aptent taciti sociosqu ad
+                            litora torquent per conubia nostra per inceptos
+                            himenaeos.This is Photoshop's version of Lorem
+                            Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                            Aenean lorem quis bibendum auctor nisi elit
+                            consequat ipsum nec sagittis sem nibh id elit.
+                          </p>
+
+                          <p>
+                            <b>Excepteur sint occaecat cupidatat non : </b
+                            >auctor a ornare odio. Sed non mauris vitae erat
+                            consequat auctor eu in elit. Class aptent taciti
+                            sociosqu ad litora torquent per conubia nostra per
+                            inceptos himenaeos.This is Photoshop's version of
+                            Lorem Ipsum.
+                          </p>
+                        </div> -->
+                      <!-- STUDY TABLE WRAP END -->
+
+                      <!-- STUDY TABLE WRAP START -->
+                      <!-- <div class="study_table_wrap border_none">
+                          <h6>Student’s Destinations</h6>
+                          <p>
+                            Sed ut imperdiet nisi. Proin condimentum fermentum
+                            nunc. Etiam pharetra erat sed fermentum velit mauris
+                            egestas quam ut aliquam massa nisl quis neque.
+                            Suspendisse in orci enim.Etiam pharetra erat sed
+                            fermentum feugiat velit mauris egestas quam ut
+                            aliquam massa nisl quis neque
+                          </p>
+                        </div> -->
+                      <!-- STUDY TABLE WRAP END -->
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="facilities">
+                      <!-- COURSES DETAIL DES START -->
+                      <div class="kf_courses_detail_des">
+              
+                      
+                   
+  
+    <!-- <div class="blog_thumb_wrap">
+      <div class="study_table_wrap_2">
+        <h3 class="center">lab Images</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img alt="" src="images/ece_lab__1.jpg"class="img-fluid" style="height:237px;" />
+            <figcaption>
+              <a href="#">
+                <p>Electronic Devices Laboratory</p>
+      
+        
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img alt="" src="images/ece_lab__2.jpg"class="img-fluid" style="height:237px;"/>
+            <figcaption>
+              <a href="#">
+                <p>Digital System Design Lab</p>
+                
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img alt="" src="images/ece_lab__3.jpg" class="img-fluid" style="height: 237px;" />
+            <figcaption>
+              <a href="#">
+                <p>Analog and Digital Communication Laboratory</p>
+            
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img alt="" src="images/ece_lab__4.jpg" class="img-fluid" style="height:237px" />
+            <figcaption>
+              <a href="#">
+                <p>Microprocessors and Microcontrollers Laboratory</p>
+              
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img alt="" src="images/ece_lab__5.jpg" class="img-fluid" style="height:237px"  />
+            <figcaption>
+              <a href="#">
+                <p>Electromagnetic Field Theory & Transmission Line</p>
+        
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img alt="" src="images/ece_lab__6.jpg" class="img-fluid" style="height:237px" />
+            <figcaption>
+              <a href="#">
+                <p>Digital Signal Processing Laboratory</p>
+          
+    
+              </a>
+            </figcaption>
+          </figure>
+        </div>   
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img alt="" src="images/ece_p_1.jpg" class="img-fluid" style="height:237px" />
+            <figcaption>
+              <a href="#">
+                <p>major equipment</p>
+     
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img alt="" src="images/ece_p_2.jpg" class="img-fluid" style="height:237px" />
+            <figcaption>
+              <a href="#">
+                <p>major equipment</p>
+               
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img alt="" src="images/ece_p_3.jpg" class="img-fluid" style="height:237px" />
+            <figcaption>
+              <a href="#">
+                <p>major equipment</p>
+       
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img alt="" src="images/ece_p_4.jpg" class="img-fluid" style="height:237px" />
+            <figcaption>
+              <a href="#">
+                <p>major equipment</p>
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img alt="" src="images/ece_p_5.jpg" class="img-fluid" style="height:237px" />
+            <figcaption>
+              <a href="#">
+                <p>major equipment</p>
+            
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img alt="" src="images/ece_p_6.jpg" class="img-fluid" style="height:237px" />
+            <figcaption>
+              <a href="#">
+                <p>major equipment</p>
+    
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img alt="" src="images/ece_p_7.jpg" class="img-fluid" style="height:237px" />
+            <figcaption>
+              <a href="#">
+                <p>major equipment</p>
+      
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img alt="" src="images/ece_p_8.jpg" class="img-fluid" style="height:237px" />
+            <figcaption>
+              <a href="#">
+                <p>major equipment</p>
+           
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img alt="" src="images/ece_p_9.jpg" class="img-fluid" style="height:237px" />
+            <figcaption>
+              <a href="#">
+                <p>major equipment</p>
+    
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img alt="" src="images/ece_p_10.jpg" class="img-fluid" style="height:237px" />
+            <figcaption>
+              <a href="#">
+                <p>major equipment</p>
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+       
+      </div>
+     
+      </div> -->
+
+                       <!-- <div class="container">
+                        <div class="row">
+                          <div class="col-6">
+                            <img src="images/ece_p_1.jpg" alt="">
+                          </div>
+                          <br>
+                          <br>
+
+                          <div class="col-6">
+                            <img src="images/ece_p_2.jpg" alt="">
+                          </div>
+                          <br>
+                          <br>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="row">
+                          <div class="col-6">
+                            <img src="images/ece_p_3.jpg" alt="">
+                          </div>
+                          <br>
+                          <br>
+                          <div class="col-6">
+                            <img src="images/ece_p_4.jpg" alt="">
+                          </div>
+                          <br>
+                          <br>
+                        </div>
+                        <br>
+                        <br>
+
+                        <div class="row">
+                          <div class="col-6">
+                            <img src="images/ece_p_5.jpg" alt="">
+                          </div>
+                          <br>
+                          <br>
+                          <div class="col-6">
+                            <img src="images/ece_p_6.jpg" alt="">
+                          </div>
+                          <br>
+                          <br>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="row">
+                          <div class="col-6">
+                            <img src="images/ece_p_7.jpg" alt="">
+                          </div>
+                          <br>
+                          <br>
+                          <div class="col-6">
+                            <img src="images/ece_p_8.jpg" alt="">
+                          </div>
+
+                          <br>
+                          <br>
+                  
+                        </div>
+                        <br>
+                        <br>
+          
+                        <b>List of software</b>
+                          <ul>
+                            <li>MultiSIM version 11</li>
+                            <li>MATLAB 9.7 2019b</li>
+                            <li>Xilinx ISE version 14.7</li>
+                          </ul>
+                       </div> -->
+                     
+                       <div class="study_table_wrap_2">
+                        <h3 class="center">Laboratories</h3><br>
+                      </div>
+                       <div class="container">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="card">
+                              <img class="card-img-top" src="ECE LAB/Electronic Devices Laboratory.jpg" style="height: 291px;
+                              width: 380px;" alt="Card image cap">
+                              <div class="card-body">
+                                <h6 class="card-title">Electronic Devices Laboratory</h6>
+                                <p class="card-text text-justify">Students get familiarized with the analysis and design of circuits by using semiconductor devices like diodes, transistors, FETs, SCRs, ....</p>
+                              
+                              </div>
+                              <div class="overlay">
+                                <h6 class="center">Electronic Devices Laboratory</h6>
+                                <p class="text-justify" style="line-height: 1.2;">Students get familiarized with the analysis and design of circuits by using semiconductor devices like diodes, transistors, FETs, SCRs, and UJTs. This lab mainly focuses on semiconductor device physics. The facilities include Dual DC Regulated Power Supply, (0-30) MHz Cathode Ray Oscilloscope, (1-1)MHz Function Generator, Digital Voltmeter, Digital milli-Ammeters, Digital micro-ammeters, Digital Multimeters, Circuit components for implementing Diodes/Transistors/FET, SCR/UJT and SCR based circuits.</p>
+  
+                                  <p class="sofware_name">LIST OF SOFTWARE</p>
+                               
+                                  
+                          <ul>
+                            <li>MultiSIM version 11</li>
+                           <li>MATLAB 9.7 2019b</li>
+                           <li>Xilinx ISE version 14.7</li>
+  
+                          </ul>
+                              </div>
+                            </div>
+
+
+                            <div class="responsive">
+                              <img src="ECE LAB/Electronic Devices Laboratory.jpg" alt="Card image cap">
+                              <br><br>
+                              <h6 class="center">Electronic Devices Laboratory</h6>
+                              <p class="text-justify" style="line-height: 1.2;">Students get familiarized with the analysis and design of circuits by using semiconductor devices like diodes, transistors, FETs, SCRs, and UJTs. This lab mainly focuses on semiconductor device physics. The facilities include Dual DC Regulated Power Supply, (0-30) MHz Cathode Ray Oscilloscope, (1-1)MHz Function Generator, Digital Voltmeter, Digital milli-Ammeters, Digital micro-ammeters, Digital Multimeters, Circuit components for implementing Diodes/Transistors/FET, SCR/UJT and SCR based circuits.</p>
+      
+      
+                                <p class="sofware_name">LIST OF SOFTWARE</p>
+      
+                        <ul>
+                          <li style="list-style-type: disc;">MultiSIM version 11</li>
+                          <li style="list-style-type: disc;">MATLAB 9.7 2019b</li>
+                          <li style="list-style-type: disc;">Xilinx ISE version 14.7</li>
+                        </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="card">
+                              <img class="card-img-top" src="CE LAB/2.jpg" style="height: 291px;
+                              width: 380px;" alt="Card image cap">
+                              <div class="card-body">
+                                <h6 class="card-title">Analog Electronics Laboratory</h6>
+                                <p class="card-text text-justify">This lab aims to teach students about Linear Integrated Circuit design using 555 Timer, phase-locked loop, and Schmitt Trigger Kits.....</p>
+                              
+                              </div>
+                              <div class="overlay">
+                                <h6 class="center">Analog Electronics Laboratory</h6>
+                                <p class="text-justify" style="line-height: 1.2;">This lab aims to teach students about Linear Integrated Circuit design using 555 Timer, phase-locked loop, and Schmitt Trigger Kits. It provides all hardware and software required to measure the characteristics of various electronic components. Students are emphasized to design and analyze the electronic circuits as well as pulse digital circuits and are supposed to co-relate it theoretically. Components include diodes, BJT,FET, UJT, Resistors, Inductors, and Capacitors, IC Components Like IC 741,555,565,723,7912,7809,7805. Current Shunt and Voltage Series Feedback Amplifier Kits, Power Amplifier kits(Tuned Amplifier).</p>
+  
+                                  <p class="sofware_name" style="margin-top: 7px;">LIST OF SOFTWARE</p>
+                               
+                                  
+                          <ul>
+                            <li>MultiSIM version 11</li>
+                           <li>MATLAB 9.7 2019b</li>
+                           <li>Xilinx ISE version 14.7</li>
+  
+                          </ul>
+                              </div>
+                            </div>
+
+
+                            <div class="responsive">
+                              <img src="CE LAB/2.jpg" alt="Card image cap">
+                              <br><br>
+                              <h6 class="center">Analog Electronics Laboratory</h6>
+                              <p class="text-justify" style="line-height: 1.2;">This lab aims to teach students about Linear Integrated Circuit design using 555 Timer, phase-locked loop, and Schmitt Trigger Kits. It provides all hardware and software required to measure the characteristics of various electronic components. Students are emphasized to design and analyze the electronic circuits as well as pulse digital circuits and are supposed to co-relate it theoretically. Components include diodes, BJT,FET, UJT, Resistors, Inductors, and Capacitors, IC Components Like IC 741,555,565,723,7912,7809,7805. Current Shunt and Voltage Series Feedback Amplifier Kits, Power Amplifier kits(Tuned Amplifier).</p>
+      
+      
+                                <p class="sofware_name">LIST OF SOFTWARE</p>
+      
+                        <ul>
+                          <li style="list-style-type: disc;">MultiSIM version 11</li>
+                          <li style="list-style-type: disc;">MATLAB 9.7 2019b</li>
+                          <li style="list-style-type: disc;">Xilinx ISE version 14.7</li>
+                        </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-4"> 
+                            <div class="card">
+                              <img class="card-img-top" src="ECE LAB/Digital System Design Lab..jpg" style="height: 291px;
+                              width: 380px;" alt="Card image cap">
+                              <div class="card-body">
+                                <h6 class="card-title">Digital System Design Lab</h6>
+                                <p class="card-text text-justify">The Digital System Design Lab is one of the core laboratories of our Electronics & Communication Engineering Department. Digital System Design .....</p>
+                              
+                              </div>
+                              <div class="overlay">
+                                <h6 class="center">Digital System Design Lab</h6>
+                                <p class="text-justify" style="line-height: 1.2;">The Digital System Design Lab is one of the core laboratories of our Electronics & Communication Engineering Department. Digital System Design Lab is equipped with Bread Board, ICs, and various Digital Electronic Kits. It helps to learn the basic nomenclature of ICs and their specifications by developing the logic circuits on breadboard. This lab provides the idea of Boolean functions, and Truth Tables of Logic Gates using  TTL ICs. This electronic lab helps the students to get an overview of the design of different logic circuits of Combinational and Sequential Circuits. </p>
+  
+                                  <p class="sofware_name">LIST OF SOFTWARE</p>
+                               
+                                  
+                          <ul>
+                            <li>MultiSIM version 11</li>
+                           <li>MATLAB 9.7 2019b</li>
+                           <li>Xilinx ISE version 14.7</li>
+  
+                          </ul>
+                              </div>
+                            </div>
+
+
+                            
+                            <div class="responsive">
+                              <img src="ECE LAB/Digital System Design Lab..jpg" alt="Card image cap">
+                              <br><br>
+                              <h6 class="center">Digital System Design Lab</h6>
+                                <p class="text-justify" style="line-height: 1.2;">The Digital System Design Lab is one of the core laboratories of our Electronics & Communication Engineering Department. Digital System Design Lab is equipped with Bread Board, ICs, and various Digital Electronic Kits. It helps to learn the basic nomenclature of ICs and their specifications by developing the logic circuits on breadboard. This lab provides the idea of Boolean functions, and Truth Tables of Logic Gates using  TTL ICs. This electronic lab helps the students to get an overview of the design of different logic circuits of Combinational and Sequential Circuits. </p>
+      
+      
+                                <p class="sofware_name">LIST OF SOFTWARE</p>
+      
+                        <ul>
+                          <li style="list-style-type: disc;">MultiSIM version 11</li>
+                          <li style="list-style-type: disc;">MATLAB 9.7 2019b</li>
+                          <li style="list-style-type: disc;">Xilinx ISE version 14.7</li>
+                        </ul>
+                            </div>
+                          </div>
+                        </div>
+   
+                        <div class="row">
+                  <div class="col-md-4"> 
+                    <div class="card">
+                      <img class="card-img-top" src="CE LAB/3.jpg" style="height: 291px;
+                      width: 380px;" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Analog and Digital Communication Laboratory</h6>
+                        <p class="card-text text-justify">This laboratory provides a platform for students to understand the basics of analog and digital communication systems, as well as modulation tech .....</p>
+                      
+                      </div>
+                      <div class="overlay">
+                        <h6 class="center">Analog and Digital Communication Laboratory</h6>
+                        <p class="text-justify" style="line-height: 1.2;">This laboratory provides a platform for students to understand the basics of analog and digital communication systems, as well as modulation techniques, data transmission, and multiplexing. It also provides all hardware and software required to design and simulation of communications with the applications using MATLAB software. Facilities include: (0-500) MHz Spectrum Analyzer, (1-30)V DC Regulated Power Supply, Amplitude Modulation & Demodulation kits. Single Side Band & Suppressed Carrierkits, Pulse Code Modulation kits, Phase Shift Keying kits, frequency shift Keying Kits, D-Pulse Code Modulations kits, Delta Modulation Kits. </p>
+
+                          <p class="sofware_name" style="margin-top: -8px;">LIST OF SOFTWARE</p>
+                       
+                          
+                  <ul style="margin-top: 7px;">
+                    <li>MultiSIM version 11</li>
+                   <li>MATLAB 9.7 2019b</li>
+                   <li>Xilinx ISE version 14.7</li>
+
+                  </ul>
+                      </div>
+                    </div>
+
+
+                    <div class="responsive">
+                      <img src="CE LAB/3.jpg" alt="Card image cap">
+                      <br><br>
+                      <h6 class="center">Analog and Digital Communication Laboratory</h6>
+                      <p class="text-justify" style="line-height: 1.2;">This laboratory provides a platform for students to understand the basics of analog and digital communication systems, as well as modulation techniques, data transmission, and multiplexing. It also provides all hardware and software required to design and simulation of communications with the applications using MATLAB software. Facilities include: (0-500) MHz Spectrum Analyzer, (1-30)V DC Regulated Power Supply, Amplitude Modulation & Demodulation kits. Single Side Band & Suppressed Carrierkits, Pulse Code Modulation kits, Phase Shift Keying kits, frequency shift Keying Kits, D-Pulse Code Modulations kits, Delta Modulation Kits. </p>
+
+
+                        <p class="sofware_name">LIST OF SOFTWARE</p>
+
+                <ul>
+                  <li style="list-style-type: disc;">MultiSIM version 11</li>
+                  <li style="list-style-type: disc;">MATLAB 9.7 2019b</li>
+                  <li style="list-style-type: disc;">Xilinx ISE version 14.7</li>
+                </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-4"> 
+                    <div class="card">
+                      <img class="card-img-top" src="ECE LAB/Microprocessors and Microcontrollers Laboratory.jpg" style="height: 291px;
+                      width: 380px;" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Microprocessors and Microcontrollers Laboratory</h6>
+                        <p class="card-text text-justify">This laboratory provides all hardware and software required to learn the assembly language programming systematically for the different .....</p>
+                      
+                      </div>
+                      <div class="overlay">
+                        <h6 class="center">Microprocessors and Microcontrollers Laboratory</h6>
+                        <p class="text-justify" style="line-height: 1.2;"> 
+                          This laboratory provides all hardware and software required to learn the assembly language programming systematically for the different applications of microprocessors and microcontrollers. Students can execute basic assembly language programs as well as interface ADC, DAC, and stepper motor through various interface cards. Facilities: Intel 8085-8086 Microprocessor kits with keyboards, Interfacing Modules for 8051 Microcontroller like Liquid Crystal Display, Timer/Counter, UART & Interrupt, and Matrix Keyboard.
+                           </p>
+
+                          <p class="sofware_name" style="margin-top: -8px;">LIST OF SOFTWARE</p>
+                       
+                          
+                  <ul style="margin-top: 7px;">
+                    <li>MultiSIM version 11</li>
+                   <li>MATLAB 9.7 2019b</li>
+                   <li>Xilinx ISE version 14.7</li>
+
+                  </ul>
+                      </div>
+                    </div>
+
+
+                    <div class="responsive">
+                      <img src="ECE LAB/Microprocessors and Microcontrollers Laboratory.jpg" alt="Card image cap">
+                      <br><br>
+                      <h6 class="center">Microprocessors and Microcontrollers Laboratory</h6>
+                      <p class="text-justify" style="line-height: 1.2;"> 
+                        This laboratory provides all hardware and software required to learn the assembly language programming systematically for the different applications of microprocessors and microcontrollers. Students can execute basic assembly language programs as well as interface ADC, DAC, and stepper motor through various interface cards. Facilities: Intel 8085-8086 Microprocessor kits with keyboards, Interfacing Modules for 8051 Microcontroller like Liquid Crystal Display, Timer/Counter, UART & Interrupt, and Matrix Keyboard.
+                         </p>
+
+
+                        <p class="sofware_name">LIST OF SOFTWARE</p>
+
+                <ul>
+                  <li style="list-style-type: disc;">MultiSIM version 11</li>
+                  <li style="list-style-type: disc;">MATLAB 9.7 2019b</li>
+                  <li style="list-style-type: disc;">Xilinx ISE version 14.7</li>
+                </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-4"> 
+                    <div class="card">
+                      <img class="card-img-top" src="ECE LAB/Electromagnetic Field Theory & Transmission Line.jpg" style="height: 291px;
+                      width: 380px;" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Electromagnetic Field Theory & Transmission Line</h6>
+                        <p class="card-text text-justify">This is a vital lab where students can understand the basics of Electromagnetic field theory and transmission line .....</p>
+                      
+                      </div>
+                      <div class="overlay">
+                        <h6 class="center">Electromagnetic Field Theory & Transmission Line</h6>
+                        <p class="text-justify" style="line-height: 1.2;"> 
+                          This is a vital lab where students can understand the basics of Electromagnetic field theory and transmission line. There are different hardware and simulation experiment through which students experience the flavor of the Modern Transmission line, various antennas like a dipole, horn folder dipole, etc. Spectrum analyzer 1GHz. And Microwave Test bench(Gunn Power supply and Klystron Power supply).
+                           </p>
+
+                          <p class="sofware_name" style="margin-top: -8px;">LIST OF SOFTWARE</p>
+                       
+                          
+                  <ul style="margin-top: 7px;">
+                    <li>MultiSIM version 11</li>
+                   <li>MATLAB 9.7 2019b</li>
+                   <li>Xilinx ISE version 14.7</li>
+
+                  </ul>
+                      </div>
+                    </div>
+
+
+                  
+                    <div class="responsive">
+                      <img src="ECE LAB/Electromagnetic Field Theory & Transmission Line.jpg" alt="Card image cap">
+                      <br><br>
+                      <h6 class="center">Electromagnetic Field Theory & Transmission Line</h6>
+                      <p class="text-justify" style="line-height: 1.2;"> 
+                        This is a vital lab where students can understand the basics of Electromagnetic field theory and transmission line. There are different hardware and simulation experiment through which students experience the flavor of the Modern Transmission line, various antennas like a dipole, horn folder dipole, etc. Spectrum analyzer 1GHz. And Microwave Test bench(Gunn Power supply and Klystron Power supply).
+                         </p>
+
+
+                        <p class="sofware_name">LIST OF SOFTWARE</p>
+
+                <ul>
+                  <li style="list-style-type: disc;">MultiSIM version 11</li>
+                  <li style="list-style-type: disc;">MATLAB 9.7 2019b</li>
+                  <li style="list-style-type: disc;">Xilinx ISE version 14.7</li>
+                </ul>
+                    </div>
+                  </div>
+                           </div>
+                            <div class="row">
+                  <!-- <div class="col-md-4"> 
+                    <div class="card">
+                      <img class="card-img-top" src="extra-images/archive-1.jpg" style="height: 291px;
+                      width: 380px;" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Digital Signal Processing Laboratory</h6>
+                        <p class="card-text">The Digital Signal Processing Lab is based on MATLAB tools. The lab provides all hardware and software required to design audio signals, speech.....</p>
+                      
+                      </div>
+                      <div class="overlay">
+                        <h6 class="center">Digital Signal Processing Laboratory</h6>
+                        <p class="center" style="line-height: 1.2;"> 
+                          The Digital Signal Processing Lab is based on MATLAB tools. The lab provides all hardware and software required to design audio signals, speech processing, voice recognition, and analysis of analog and digital signals. MATLAB tools are used to evaluate the effectiveness of Fast Fourier Transform algorithms in discrete Fourier transform implementation. Students will be able to analyze the digital filter design of Finite Impulse Response and Infinite Impulse Response filters.
+                           </p>
+
+                          <p class="sofware_name" style="margin-top: -8px;">LIST OF SOFTWARE</p>
+                       
+                          
+                  <ul style="margin-top: 7px;">
+                    <li>MultiSIM version 11</li>
+                   <li>MATLAB 9.7 2019b</li>
+                   <li>Xilinx ISE version 14.7</li>
+
+                  </ul>
+                      </div>
+                    </div>
+                  </div> -->
+                             </div>
+                       </div>
+                      </div>
+                      <!-- COURSES DETAIL DES END -->
+
+                      <!-- STUDY TABLE WRAP START -->
+
+                      <!-- STUDY TABLE WRAP END -->
+
+                      <!-- STUDY TABLE WRAP START -->
+                      <!-- <div class="study_table_wrap">
+                          <h6>Projects & Research Intrests</h6>
+
+                          <p>
+                            This is Photoshop's version of Lorem Ipsum. Proin
+                            gravida nibh vel velit auctor aliquet. Aenean lorem
+                            quis bibendum auctor nisi elit consequat ipsum nec
+                            sagittis sem nibh id elit. Duis sed odio sit amet
+                            nibh vulputate cursus a sit amet mauris. Morbi
+                            accumsan ipsum velit. Nam nec tellus a odio
+                            tincidunt auctor a ornare odio. Sed non mauris vitae
+                            erat consequat auctor eu in elit. Class aptent
+                            taciti sociosqu ad litora torquent per conubia
+                            nostra per inceptos himenaeos.
+                          </p>
+
+                          <p>
+                            <b>Nam nec tellus a odio tincidunt :</b> auctor a
+                            ornare odio. Sed non mauris vitae erat consequat
+                            auctor eu in elit. Class aptent taciti sociosqu ad
+                            litora torquent per conubia nostra per inceptos
+                            himenaeos.This is Photoshop's version of Lorem
+                            Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                            Aenean lorem quis bibendum auctor nisi elit
+                            consequat ipsum nec sagittis sem nibh id elit.
+                          </p>
+
+                          <p>
+                            <b>Excepteur sint occaecat cupidatat non : </b
+                            >auctor a ornare odio. Sed non mauris vitae erat
+                            consequat auctor eu in elit. Class aptent taciti
+                            sociosqu ad litora torquent per conubia nostra per
+                            inceptos himenaeos.This is Photoshop's version of
+                            Lorem Ipsum.
+                          </p>
+                        </div> -->
+                      <!-- STUDY TABLE WRAP END -->
+
+                      <!-- STUDY TABLE WRAP START -->
+                      <!-- <div class="study_table_wrap border_none">
+                          <h6>Student’s Destinations</h6>
+                          <p>
+                            Sed ut imperdiet nisi. Proin condimentum fermentum
+                            nunc. Etiam pharetra erat sed fermentum velit mauris
+                            egestas quam ut aliquam massa nisl quis neque.
+                            Suspendisse in orci enim.Etiam pharetra erat sed
+                            fermentum feugiat velit mauris egestas quam ut
+                            aliquam massa nisl quis neque
+                          </p>
+                        </div> -->
+                      <!-- STUDY TABLE WRAP END -->
+                    </div>
+                      <div role="tabpanel" class="tab-pane" id="activities">
+                        <!-- COURSES DETAIL DES START -->
+                        <div class="kf_courses_detail_des">
+                     
+                        <div class="kf_courses_detail_des">
+                          <div class="blog_thumb_wrap">
+                            <div class="study_table_wrap_2">
+                              <h3 class="center">Activity gallery</h3>
+                              <br>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-4 col-sm-4">
+                                <figure>
+                                  <img alt="" src="images/ece_a_1.jpg"class="img-fluid" style="height:237px;" />
+                                  <figcaption>
+                                    <a href="#">
+                                      <p> Projects done by the students</p>
+                                      <p>based wireless home appliances control (4th year 2018-2022)</p>
+                                    </a>
+                                  </figcaption>
+                                </figure>
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                <figure>
+                                  <img alt="" src="images/ece_a_2.jpg"class="img-fluid" style="height:237px;"/>
+                                  <figcaption>
+                                    <a href="#">
+                                      <p> Projects done by the students</p>
+                                      <p>Light Fidelity technology wireless audio communication (3rd year, 2019-2023)</p>
+                                    </a>
+                                  </figcaption>
+                                </figure>
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                <figure>
+                                  <img alt="" src="images/ece_a_3.jpg"class="img-fluid" style="height:237px;"/>
+                                  <figcaption>
+                                    <a href="#">
+                                      <p> Projects done by the students</p>
+                                      <p>Smart Home system using Arduino (4th year, 2018-2022)</p>
+                                    </a>
+                                  </figcaption>
+                                </figure>
+                              </div>
+                              
+                            </div>
+                            <div class="row">
+                              <div class="col-md-4 col-sm-4">
+                                <figure>
+                                  <img alt="" src="images/ece_a_4.jpg"class="img-fluid" style="height:237px;"/>
+                                  <figcaption>
+                                    <a href="#">
+                                      <p> Projects done by the students</p>
+                                      <p>Smart Car Parking System using Audrino (4th year 2018-2022)</p>
+                                    </a>
+                                  </figcaption>
+                                </figure>
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                <figure>
+                                  <img alt="" src="images/ece_a_5.jpg"class="img-fluid" style="height:237px;"/>
+                                  <figcaption>
+                                    <a href="#">
+                                      <p> Projects done by the students</p>
+                                      <p>Blind Stick using Audrino(4th year 2018-2022)</p>
+                                    </a>
+                                  </figcaption>
+                                </figure>
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                <figure>
+                                  <img alt="" src="images/ece_a_6.jpg"class="img-fluid" style="height:237px;"/>
+                                  <figcaption>
+                                    <a href="#">
+                                      <p>Research, industrial visits,</p>
+                                      <p>Students taking training on semiconductor IC design at Bhive Design Pvt. Ltd., Ranchi, Jharkhand</p>
+                                    </a>
+                                  </figcaption>
+                                </figure>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-4 col-sm-4">
+                                <figure>
+                                  <img alt="" src="images/ece_a_7.jpg"class="img-fluid" style="height:237px;"/>
+                                  <figcaption>
+                                    <a href="#">
+                                      <p>Research, industrial visits,</p>
+                                      <p>Students taking training on semiconductor IC design at Bhive Design Pvt. Ltd., Ranchi, Jharkhand</p>
+                                    </a>
+                                  </figcaption>
+                                </figure>
+                              </div>
+                              <!-- <div class="col-md-4 col-sm-4">
+                                <figure>
+                                  <img alt="" src="images/ece_a_8.jpg"class="img-fluid" style="height:237px;"/>
+                                  <figcaption>
+                                    <a href="#">
+                                      <p>Study tours</p>
+                                    </a>
+                                  </figcaption>
+                                </figure>
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                <figure>
+                                  <img alt="" src="images/ece_a_9.jpg"class="img-fluid" style="height:237px;"/>
+                                  <figcaption>
+                                    <a href="#">
+                                      <p>Study tours</p>
+                                    </a>
+                                  </figcaption>
+                                </figure>
+                              </div> -->
+                       
+                         
+                              <div class="col-md-4 col-sm-4">
+                                <figure>
+                                  <img alt="" src="images/ece_a_10.jpg"class="img-fluid" style="height:237px;"/>
+                                  <figcaption>
+                                    <a href="#">
+                                      <p>
+                                        Expert talks
+                                        </p>
+                                        <p>Seminar on Recent Trends in Communication</p>
+                                    </a>
+                                  </figcaption>
+                                </figure>
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                <figure>
+                                  <img alt="" src="images/ece_a_12.jpg"class="img-fluid" style="height:237px;"/>
+                                  <figcaption>
+                                    <a href="#">
+                                      <p>
+                                        Departmental Events
+                                        </p>
+                                        <p>Photography Competition</p>
+                                    </a>
+                                  </figcaption>
+                                </figure>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-4 col-sm-4">
+                                <figure>
+                                  <img alt="" src="images/ece_a_13.jpg"class="img-fluid" style="height:237px;"/>
+                                  <figcaption>
+                                    <a href="#">
+                                      <p>
+                                        Departmental Events
+                                        </p>
+                                        <p>Technical Debate – CLASH OF WORDS</p>
+                                    </a>
+                                  </figcaption>
+                                </figure>
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                <figure>
+                                  <img alt="" src="images/ece_a_14.png"class="img-fluid" style="height:237px;"/>
+                                  <figcaption>
+                                    <a href="#">
+                                      <p>
+                                        Departmental Events
+                                        </p>
+                                        <p>
+                                          Think Ink Your Thoughts
+                                          </p>
+                                    </a>
+                                  </figcaption>
+                                </figure>
+                              </div>
+                            </div>
+                         
+                            </div>
+                           
+
+
+
+
+                         
+                          </div>
+                        <h4>Career Guidance & Mentoring</h4>
+                          <ul>
+                            <li style="list-style-type: disc;">Faculty Mentor monitors the personal and professional development of individual student
+                              mentee.</li>
+                            <li style="list-style-type: disc;">Guides curricular, co-curricular and extra-curricular activities.</li>
+                            <li style="list-style-type: disc;">Mentor establishes a personal relationship and addresses the various issues of the
+                              student.
+                            </li>
+
+                          </ul>
+                        <!-- COURSES DETAIL DES END -->
+
+                        <!-- STUDY TABLE WRAP START -->
+                      
+                        <!-- STUDY TABLE WRAP END -->
+
+                        <!-- STUDY TABLE WRAP START -->
+                
+                        <!-- STUDY TABLE WRAP END -->
+
+                        <!-- STUDY TABLE WRAP START -->
+               
+                        <!-- STUDY TABLE WRAP END -->
+                      </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="vision">
+                      <div class="kf_edu2_heading1">
+                        <br>
+                        <h5>
+                          DEPARTMENT VISION:
+                        </h5>
+                      <p>
+                        To create engineers, innovators, and businesspeople who are technically competent and capable of tackling technical issues with social responsibility and professional ethics
+                      </p>
+                        <!-- <h3>About Sanaka Educational Trust’s Group of Institutions (SETGOI): </h3> -->
+                      </div>
+                      <div class="kf_edu2_heading1">
+                        <br>
+                        <h5>
+                          DEPARTMENT MISSION:
+                        </h5>
+                      <ul>
+                      <li>
+                          <b>DM1:</b> Have a learning environment and infrastructure that provide quality education, training, and research.
+                        </li>
+                      <li>
+                          <b>DM2:</b> To bring the learners on par with the most recent scientific and technological advancements.
+                        </li>
+                        <li>
+                          <b>DM3:</b> To foster employability, entrepreneurship, leadership capabilities with ethics, and a research mindset.
+                        </li>
+                      </ul>
+                    <p></p>
+                        <!-- <h3>About Sanaka Educational Trust’s Group of Institutions (SETGOI): </h3> -->
+                      </div>
+                   </div>
+                   <div role="tabpanel" class="tab-pane" id="po">
+                    <div class="kf_edu2_heading1">
+                      <br>
+                      <h5>
+                        PROGRAM EDUCATIONAL OBJECTIVES (PEO):
+                      </h5>
+
+                    <ul>
+                    <li>
+                        <b>PEO 1: </b> <strong style="color:#e79800;">career success</strong> Have professional careers through various skills and knowledge in electronics, communication engineering, allied domains and fundamental sciences.
+                      </li>
+                      <li>
+                        <b>PEO 2: </b> <strong style="color:#e79800;">Solution Development and Design</strong> Have analytical skills necessary to identify real-time problems and create technical solutions that are both socially and economically acceptable.
+                      </li>
+                      <li>
+                        <b>PEO:3 </b> <strong style="color:#e79800;">Research and lifelong learning</strong>Pursue higher education and take part in research and development projects that will help them integrate engineering concepts into larger social contexts.
+                      </li>
+                      <li>
+                        <b>PEO:4 </b> <strong style="color:#e79800;">Communication and leadership abilities</strong>Exhibit effective communication skills in their professional career; lead a team with strong leadership qualities and positive interpersonal relationships.
+                      </li>
+                    </ul>
+                  <p></p>
+                      <!-- <h3>About Sanaka Educational Trust’s Group of Institutions (SETGOI): </h3> -->
+                    </div>
+                    <div class="kf_edu2_heading1">
+                      <br>
+                      <h5>
+                        PROGRAM SPECIFIC OUTCOMES (PSO):
+                      </h5>
+                      <P>
+                        Students of Electronics and Communications Engineering will be able to
+                      </P>
+                    <ul>
+                    <li>
+                        <b>PSO 1: </b>Enable a platform for the development of digital circuits and embedded software for robotics, embedded systems, and signal processing applications.
+                      </li>
+                    <li>
+                        <b>PSO 2: </b> Employ High Frequency Structure Simulator (HFSS) to model and assess Patch and Smart Antennas for Wired and Wireless Communication Applications.
+                      </li>  
+                    </ul>
+                  <p></p>
+                      <!-- <h3>About Sanaka Educational Trust’s Group of Institutions (SETGOI): </h3> -->
+                    </div>
+                    <div class="kf_edu2_heading1">
+                      <br>
+                      <h5>
+                        PROGRAM OUTCOMES (PO):
+                      </h5>
+
+                      <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <th scope="row">PO1</th>
+                                <td><b style="color:#e79800;">Engineering Knowledge:</b> Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">PO2</th>
+                              <td><b style="color:#e79800;">Problem Analysis: </b>Identify, formulate, review research literature, and analyse complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences and engineering sciences.</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">PO3</th>
+                            <td><b style="color:#e79800;">Design/Development of Solutions:  </b> Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">PO4</th>
+                          <td><b style="color:#e79800;">Conduct Investigations of Complex Problems: </b> Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions for complex problems</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">PO5</th>
+                        <td><b style="color:#e79800;">Modern Tool Usage:  </b> Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modelling to complex engineering activities with an understanding of the limitations.</td>
+                     </tr>
+                     <tr>
+                      <th scope="row">PO6</th>
+                      <td><b style="color:#e79800;">The Engineer and Society: </b> Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.</td>
+                   </tr>
+                   <tr>
+                    <th scope="row">PO7</th>
+                    <td><b style="color:#e79800;">Environment and Sustainability: </b> Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">PO8</th>
+                    <td><b style="color:#e79800;">Ethics: </b> Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">PO9</th>
+                    <td><b style="color:#e79800;">Individual and Team Work: </b> Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">PO10</th>
+                    <td><b style="color:#e79800;">Communication: </b>Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">PO11</th>
+                    <td><b style="color:#e79800;">Project Management and Finance:  </b>Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">PO12</th>
+                    <td><b style="color:#e79800;">Life-long Learning: </b>Recognize the need for, and have the preparation and ability to engage in independent and lifelong learning in the broadest context of technological change.</td>
+                  </tr>
+                        </tbody>
+                    </table>
+                      <!-- <h3>About Sanaka Educational Trust’s Group of Institutions (SETGOI): </h3> -->
+                    </div>
+                 </div>
+                  </div>
+                  <!-- COURSES DETAIL TABS WRAP END -->
+
+                
+                  <!--KF_BLOG DETAIL_DES END-->
+                </div>
+                <!-- COURSES DETAIL WRAP END -->
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--Content Wrap End-->
+
+       <!--FOOTER START-->
+       <footer>
+        <!--EDU2 FOOTER CONTANT WRAP START-->
+        <div class="container">
+          <div class="row">
+            <!--EDU2 FOOTER CONTANT DES START-->
+            <div class="col-md-4">
+              <div class="widget widget-links">
+                <h5>RESOURCE</h5>
+                <ul>
+                  <!-- <li><a href="#">Eligibility Criteria B.Tech</a></li> -->
+                  <!-- <li><a href="#">Eligibility Criteria Diploma</a></li> -->
+                  <li><a href="Fees Structure.html">Course Fees</a></li>
+                  <li><a href="FAQs.html">FAQ</a></li>
+                  <li><a href="https://www.aicte-india.org/" target="_blank">ATCTE</a></li>
+                      <li><a href="https://www.pci.nic.in/" target="_blank">PCI</a></li>
+                      <li><a href="https://www.coa.gov.in/" target="_blank">COA</a></li>
+                      <li><a href="https://makautwb.ac.in/" target="_blank">MAKAUT</a></li>
+                      <li><a href="privacy-policy.html" target="_blank">PRIVACY POLICY</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--EDU2 FOOTER CONTANT DES END-->
+
+            <!--EDU2 FOOTER CONTANT DES START-->
+            <div class="col-md-4">
+              <div class="widget widget-links">
+                <h5>DEGREE COURSES</h5>
+                <ul>
+                  <li><a href="cse.html">Computer Science & Engineering</a></li>
+                  <li><a href="ece.html">Electronics & Communication</a></li>
+                  <li><a href="eee.html">Electrical & Electronics</a></li>
+                  <li><a href="ee.html">Electrical Engineering</a></li>
+                  <li><a href="me.html">Mechanical Engineering</a></li>
+                  <li><a href="ce.html">Civil Engineering</a></li>
+                  <li><a href="b_pharm.html">Bachelor of Pharmacy</a></li>
+                  <li><a href="rrsa.html">Bachelor of Architecture</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--EDU2 FOOTER CONTANT DES END-->
+
+            <!-- <div class="col-md-3">
+              <div class="widget widget-links">
+                <h5>DIPLOMA COURSES</h5>
+                <ul>
+                  <li><a href="#">Diploma Electrical Engineering</a></li>
+                  <li><a href="#">Diploma Mechanical Engineering</a></li>
+                  <li><a href="#">Diploma Civil Engineering</a></li>
+                </ul>
+              </div>
+            </div> -->
+
+            <!--EDU2 FOOTER CONTANT DES START-->
+            <div class="col-md-4">
+              <div class="widget widget-contact">
+                <h5>POSTAL ADDRESS</h5>
+                <ul>
+                  <li>
+                    Sanaka Educational Trust’s
+                    <br>
+                     Vill & Post : Malandighi
+                     <br> 
+                     P.S. :
+                    Kanksha, Durgapur. Pin : 713212
+                    </li>
+                  <li>Phone : <a href="#">0343-2700085/86</a></li>
+                  <li>Fax : <a href="#">0343-2700082</a></li>
+                  <li>Email : <a href="mailto:info@setgoi.com"> info@setgoi.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--EDU2 FOOTER CONTANT DES END-->
+          </div>
+        </div>
+      </footer>
+      <!--FOOTER END-->
+      <!--FOOTER END-->
+      <!--COPYRIGHTS START-->
+      <div class="edu2_copyright_wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="edu2_ft_logo_wrap">
+                <a href="#"
+                  ><img
+                    src="extra-images/SETGOI BOTTOM LOGO 245x69px.png"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="copyright_des">
+                <span
+                  >&copy; All Rights reserved. Powered By
+                  <a href="https://sysbean.com/">SYSBEAN</a></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--COPYRIGHTS START-->
+    </div>
+    <!--KF KODE WRAPPER WRAP END-->
+    <!-- GetButton.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+          whatsapp: "919083267441", // WhatsApp number
+          call_to_action: "Message us", // Call to action
+          button_color: "#FF6550", // Color of button
+          position: "left", // Position may be 'right' or 'left'
+      };
+      var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<!-- /GetButton.io widget -->
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+        <script>
+          var coll = document.getElementsByClassName("collapsible");
+          var i;
+          
+          for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var content = this.nextElementSibling;
+              if (content.style.display === "block") {
+                content.style.display = "none";
+              } else {
+                content.style.display = "block";
+              }
+            });
+          }
+          </script>
+    <!--Bootstrap core JavaScript-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Bootstrap core JavaScript-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Bx-Slider JavaScript-->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <!--Owl Carousel JavaScript-->
+    <script src="js/owl.carousel.min.js"></script>
+    <!--Pretty Photo JavaScript-->
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <!--Full Calender JavaScript-->
+    <script src="js/moment.min.js"></script>
+    <script src="js/fullcalendar.min.js"></script>
+    <script src="js/jquery.downCount.js"></script>
+    <!--Image Filterable JavaScript-->
+    <script src="js/jquery-filterable.js"></script>
+    <!--Accordian JavaScript-->
+    <script src="js/jquery.accordion.js"></script>
+    <!--Number Count (Waypoints) JavaScript-->
+    <script src="js/waypoints-min.js"></script>
+    <!--v ticker-->
+    <script src="js/jquery.vticker.min.js"></script>
+    <!--select menu-->
+    <script src="js/jquery.selectric.min.js"></script>
+    <!--Side Menu-->
+    <script src="js/jquery.sidr.min.js"></script>
+    <!--Custom JavaScript-->
+    <script src="js/custom.js"></script>
+  </body>
+</html>

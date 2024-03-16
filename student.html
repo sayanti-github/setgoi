@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="extra-images/setgoi_logo_32x26.png" rel="icon">
+	<title>SETGOI</title>
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<!-- Full Calender CSS -->
+	<link href="css/fullcalendar.css" rel="stylesheet" />
+	<!-- Owl Carousel CSS -->
+	<link href="css/owl.carousel.css" rel="stylesheet" />
+	<!-- Pretty Photo CSS -->
+	<link href="css/prettyPhoto.css" rel="stylesheet" />
+	<!-- Bx-Slider StyleSheet CSS -->
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<!-- Font Awesome StyleSheet CSS -->
+	<link href="css/font-awesome.min.css" rel="stylesheet" />
+	<link href="svg/style.css" rel="stylesheet" />
+	<!-- Widget CSS -->
+	<link href="css/widget.css" rel="stylesheet" />
+<link rel="stylesheet" href="">
+	<!-- Typography CSS -->
+	<link href="css/typography.css" rel="stylesheet" />
+	<!-- Shortcodes CSS -->
+	<link href="css/shortcodes.css" rel="stylesheet" />
+	<!-- Custom Main StyleSheet CSS -->
+	<link href="style.css" rel="stylesheet" />
+	<!-- Color CSS -->
+	<link href="css/color.css" rel="stylesheet" />
+	<!-- Responsive CSS -->
+	<link href="css/responsive.css" rel="stylesheet" />
+	<!-- SELECT MENU -->
+	<link href="css/selectric.css" rel="stylesheet" />
+	<!-- SIDE MENU -->
+	<link rel="stylesheet" href="css/jquery.sidr.dark.css" />
+    <style>
+        @media screen and (max-width: 768px){
+    .sidepanel {
+    width: 0;
+    position: absolute;
+    z-index: 2;
+    height: 504px;
+    top: -170px;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    }
+}
+    </style>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D1HNFKQS2C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D1HNFKQS2C');
+</script>
+</head>
+
+<body>
+	<!--KF KODE WRAPPER WRAP START-->
+	<div class="kode_wrapper">
+		<!-- register Modal -->
+		<div class="modal fade" id="reg-box" tabindex="-1" role="dialog">
+			<div class="modal-dialog">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<div class="modal-content">
+					<!--SIGNIN AS USER START-->
+					<div class="user-box">
+						<h2>Sign up as a User</h2>
+						<!--FORM FIELD START-->
+						<div class="form">
+							<div class="input-container">
+								<input type="text" placeholder="Name" />
+								<i class="fa fa-user"></i>
+							</div>
+							<div class="input-container">
+								<input type="text" placeholder="E-mail" />
+								<i class="fa fa-envelope-o"></i>
+							</div>
+							<div class="input-container">
+								<input type="password" placeholder="Password" />
+								<i class="fa fa-unlock"></i>
+							</div>
+							<div class="input-container">
+								<label>
+									<span class="radio">
+										<input type="checkbox" name="foo" value="1" checked />
+										<span class="radio-value" aria-hidden="true"></span>
+									</span>
+									<span>Remember me</span>
+								</label>
+							</div>
+							<div class="input-container">
+								<button class="btn-style">Sign Up</button>
+							</div>
+						</div>
+						<!--FORM FIELD END-->
+						<!--OPTION START-->
+						<div class="option">
+							<h5>Or Using</h5>
+						</div>
+						<!--OPTION END-->
+						<!--OPTION START-->
+						<div class="social-login">
+							<a href="#" class="google"><i class="fa fa-google-plus"></i>Google Account</a>
+							<a href="#" class="facebook"><i class="fa fa-facebook"></i>Facebook Account</a>
+						</div>
+						<!--OPTION END-->
+					</div>
+					<!--SIGNIN AS USER END-->
+					<div class="user-box-footer">
+						Already have an account? <a href="#">Sign In</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- register Modal end-->
+
+		<!-- SIGNIN MODEL START -->
+		<div class="modal fade" id="signin-box" tabindex="-1" role="dialog">
+			<div class="modal-dialog">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<div class="modal-content">
+					<div class="user-box">
+						<h2>Sign In</h2>
+						<!--FORM FIELD START-->
+						<div class="form">
+							<div class="input-container">
+								<input type="text" placeholder="E-mail" />
+								<i class="fa fa-envelope-o"></i>
+							</div>
+							<div class="input-container">
+								<input type="password" placeholder="Password" />
+								<i class="fa fa-unlock"></i>
+							</div>
+							<div class="input-container">
+								<label>
+									<span class="radio">
+										<input type="checkbox" name="foo" value="1" checked />
+										<span class="radio-value" aria-hidden="true"></span>
+									</span>
+									<span>Remember me</span>
+								</label>
+							</div>
+							<div class="input-container">
+								<button class="btn-style">Sign In</button>
+							</div>
+						</div>
+						<!--FORM FIELD END-->
+						<!--OPTION START-->
+						<div class="option">
+							<h5>Or Using</h5>
+						</div>
+						<!--OPTION END-->
+						<!--OPTION START-->
+						<div class="social-login">
+							<a href="#" class="google"><i class="fa fa-google-plus"></i>Google Account</a>
+							<a href="#" class="facebook"><i class="fa fa-facebook"></i>Facebook Account</a>
+						</div>
+						<!--OPTION END-->
+					</div>
+					<div class="user-box-footer">
+						<p>
+							Don't have an account?<br /><a href="#">Sign up as a User</a>
+						</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- SIGNIN MODEL END -->
+
+		<!-- <div id="sidr">
+			<div class="logo_wrap">
+				<a href="#"><img src="extra-images/logo.png" alt="" /></a>
+			</div>
+			<div class="clearfix clear"></div>
+			Your content -->
+		<!-- <div class="kf-sidebar">
+			KF_SIDEBAR_SEARCH_WRAP START-->
+		<!-- <div class="widget widget-search">
+				<h2>Search Course</h2>
+				<form>
+					<input type="search" placeholder="Keyword..." />
+				</form>
+			</div>  -->
+		<!--KF_SIDEBAR_SEARCH_WRAP END-->
+
+		<!--KF_SIDEBAR_ARCHIVE_WRAP START-->
+		<!-- <div class="widget widget-archive">
+					<h2>Archives</h2>
+					<ul class="sidebar_archive_des">
+						<li>
+							<a href=""><i class="fa fa-angle-right"></i>January 2016</a>
+						</li>
+						<li>
+							<a href=""><i class="fa fa-angle-right"></i>February 2016</a>
+						</li>
+						<li>
+							<a href=""><i class="fa fa-angle-right"></i>March 2016</a>
+						</li>
+						<li>
+							<a href=""><i class="fa fa-angle-right"></i>April 2016</a>
+						</li>
+						<li>
+							<a href=""><i class="fa fa-angle-right"></i>May 2016</a>
+						</li>
+						<li>
+							<a href=""><i class="fa fa-angle-right"></i>June 2016</a>
+						</li>
+						<li>
+							<a href=""><i class="fa fa-angle-right"></i>August 2016</a>
+						</li>
+					</ul>
+				</div> -->
+		<!--KF_SIDEBAR_ARCHIVE_WRAP END-->
+
+		<!-- <p class="copy-right-sidr">
+					Design and Developed by KodeForest @ All Rights Reserved by
+					KodeForest
+				</p>
+			</div>
+		</div> -->
+        <header id="header_2">
+			<!--kode top bar start-->
+			<div class="top_bar_2">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5">
+							<div class="pull-left">
+								<em class="contct_2"><i class="fa fa-phone"></i> <a href="tel:08444030010"
+										style="color: #fff;">Call Us on
+										08444030010</a></em>
+							</div>
+							<div class="pull-left">
+								<em class="contct_2"><i class="fa fa-envelope"></i><a href="mailto:admission@setgoi.com"
+										style="color: #fff;">admission@setgoi.com</a> </em>
+							</div>
+						</div>
+						<div class="col-md-7">
+							<ul class="login_wrap">
+								<!-- <li>
+									<a href="#" data-toggle="modal" data-target="#reg-box"><i
+											class="fa fa-user"></i>Register</a>
+								</li>
+								<li>
+									<a href="#" data-toggle="modal" data-target="#signin-box"><i
+											class="fa fa-sign-in"></i>Sign In</a>
+								</li> -->
+							</ul>
+							<ul class="top_nav">
+								<li><a href="feedback.html">Feedback</a></li>
+								<li><a href="events.html">Event</a></li>
+								<li><a href="gallery.html">Gallery</a></li>
+								<!-- <li><a href="contactus -2.html">contact us</a></li> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--kode top bar end-->
+
+			<!--kode navigation start-->
+      <div class="kode_navigation">
+				<!-- <div id="mobile-header">
+					<a id="responsive-menu-button" href="#sidr-main"><i class="fa fa-bars"></i></a>
+				</div> -->
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="logo_wrap">
+								<a href="index.html"><img src="extra-images/SETGOI TOP LOGO 1140x320px.png"
+										alt=""  style="max-width: 30%; text-align:right;margin-top: 12px;"/></a>	
+							</div>
+							
+						</div>
+<div class="col-md-6" style="text-align: right;">
+    <div class="logo_wrap">
+        <a href="index.html"><img src="extra-images/iic.png"
+                alt=""  style="max-width: 41%;"/></a>	
+    </div>
+</div>
+						
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div id="mySidepanel" class="sidepanel">
+								<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+								<ul>
+								  <li><a href="iic.html">highlights</a></li>
+                                  <li><a href="focus.html">Major Focus</a></li>
+                                  <!-- <li><a href="functions.html">Functions</a></li> -->
+                                  <li><a href="committee-members.html">Committee members</a></li>
+                                  <li class="active"><a href="student.html">Student Members</a></li>
+                                  <li><a href="contact.html">Contact Us</a></li>
+
+								</ul>
+							  </div>
+							  
+							  <button class="openbtn2" onclick="openNav()">☰</button>  
+						   
+							  
+							  <script>
+							  function openNav() {
+								document.getElementById("mySidepanel").style.width = "250px";
+							  }
+							  
+							  function closeNav() {
+								document.getElementById("mySidepanel").style.width = "0";
+							  }
+							  </script>
+
+                              
+							<!--kode nav_2 start-->
+							<div class="nav_2" id="navigation">
+								<ul>
+					
+								</ul>
+							</div>
+							<!--kode nav_2 end-->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--kode navigation end-->
+
+			<!--kode blue navigation start-->
+			<div class="kode_navigation_3">
+				<!-- <div id="mobile-header">
+					<a id="responsive-menu-button-sub" href="#sidr-main"><i class="fa fa-bars"></i></a>
+				</div> -->
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<!--kode nav_2 start-->
+							<div class="nav_2" id="navigation">
+                             <ul>
+                                <li><a href="iic.html">highlights</a></li>
+                                <li><a href="focus.html">Major Focus</a></li>
+                                <!-- <li><a href="functions.html">Functions</a></li> -->
+                                <li><a href="committee-members.html">Committee members</a></li>
+                                <li class="active"><a href="student.html">Student Members</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                             </ul>
+							</div>
+							<!--kode nav_2 end-->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--kode blue navigation end-->
+		</header>
+        <div class="kf_inr_banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!--KF INR BANNER DES Wrap Start-->
+                        <div class="kf_inr_ban_des">
+                            <div class="inr_banner_heading">
+                                <h3>Student Members</h3>
+                            </div>
+        
+                            <div class="kf_inr_breadcrumb">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li>Innovation Cell</li>
+                                    <li><a href="#">programmes & Events</a></li>
+                                    <li><a href="student.html">Student Members</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--KF INR BANNER DES Wrap End-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+        
+    <section>
+        <div class="container">
+            <div class="kf_convocation_wrap" style="overflow: auto;">
+                <!-- <h4><span>INSTITUTE INDUSTRY CELL</span></h4> -->
+                <h5>Student Members</h5>
+                <ul class="convocation_timing"> </ul>
+        
+        
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col" style="vertical-align: top;" class="center">SL. NO.</th>
+                            <th scope="col" style="vertical-align: top;" class="center">NAME OF MEMBERS</th>
+                            <th scope="col" class="center">Member Type<br>
+                                Teaching/Non-Teaching Member/ <br>
+                                External Expert/ Student Member
+                                </th>
+                            <th scope="col" style="vertical-align: top;" class="center">Key Role/ Position <br>assigned in IIC</th>
+        
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="center">1</th>
+                            <td class="center">Arghadeep Kesh (4th Year, CSE, B.Tech)</td>
+                            <td class="center" rowspan="15" style="padding:289px 0;">Student Member</td>
+                            <td class="center" rowspan="15" style="padding:289px 0;">Student Representatives (Innovation Coordinators)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">2</th>
+                            <td class="center">Goutam Dam (2nd Year, CSE, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">3</th>
+                            <td class="center">Subhajit De (2nd Year, CSE, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">4</th>
+                            <td class="center">Aditya Kumar Chowdhury Dey (2nd Year, CSE, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">5</th>
+                            <td class="center">Anand Kumar Chowdhury Dey (2nd Year, CSE, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">6</th>
+                            <td class="center">Shuvrajeet Choudhuri (4th Year, EE, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">7</th>
+                            <td class="center">Ayush Das (4th Year, EEE, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">8</th>
+                            <td class="center">Bachhu Ghosh (4th Year, EEE, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">9</th>
+                            <td class="center">Parth Dubey (4th Year, ECE, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">10</th>
+                            <td class="center"> Subhadip Nayak (4th Year, ECE, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">11</th>
+                            <td class="center">Somnath Das (4th Year, ME, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">12</th>
+                            <td class="center">Shubham Bauri (4th Year, ME, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">13</th>
+                            <td class="center">Piyush Bhattacharya (2ND Year, B. Pharm)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">14</th>
+                            <td class="center">Mangesh Vishwakarma (2ND Year, B. Pharm)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">15</th>
+                            <td class="center"> Debaditya Bir (4TH Year, B. Arch)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">16</th>
+                            <td class="center">Chaitali Khanra (3RD Year, EE, B.Tech) </td>
+                            <td class="center" rowspan="10" style="padding:289px 0;">Student Member</td>
+                            <td class="center" rowspan="10" style="padding:289px 0;">Student Representatives (Start-up Coordinators)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">17</th>
+                            <td class="center">Arindam Sarkar (3RD Year, CSE, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">18</th>
+                            <td class="center">Nirmala Mondal (3RD Year, CSE, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">19</th>
+                            <td class="center">Bharat Ruidas (3RD Year, CSE, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">20</th>
+                            <td class="center">Rahul Kumar Ram (4TH Year, ME, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">21</th>
+                            <td class="center">Neha Paramanik (4TH Year, B. Pharm)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">22</th>
+                            <td class="center">Suryaday Roy (4TH Year, B. Pharm)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">23</th>
+                            <td class="center">Barshan Banerjee (4TH Year, B. Pharm)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">24</th>
+                            <td class="center">Sibtain Khan (4TH Year, B.Arch)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">25</th>
+                            <td class="center">Aparajita Dey (4TH Year, B. Pharm)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">26</th>
+                            <td class="center">Subham Mushib (4TH Year, B.Tech,EE)</td>
+                            <td class="center" rowspan="6" style="padding: 167px 0;">Student Member</td>
+                            <td class="center" rowspan="6" style="padding: 167px 0;">Student Representatives (Start-up Coordinators)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">27</th>
+                            <td class="center">Sk. Aliniaz (4TH Year, CE, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">28</th>
+                            <td class="center">Anikesh Mondal (4TH Year, CE, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">29</th>
+                            <td class="center">Aishwarya Singh (4TH Year, CSE, B.Tech)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">30</th>
+                            <td class="center">Nandini Shaw (4TH Year, B.Arch)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="center">31</th>
+                            <td class="center">Gaurav Kumar (4TH Year, EE, B.Tech)</td>
+                        </tr>
+                    <tr>
+                        <th scope="row" class="center">32</th>
+                        <td class="center">Debjyoti Mishra (4TH Year, CSE, B.Tech)</td>
+                        <td class="center">Student Member</td>
+                        <td class="center">Student Representative (Social Media Coordinators)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="center">33</th>
+                        <td class="center">Debashis Chatterjee (4TH Year, EE, B.Tech)</td>
+                        <td class="center">Student Member</td>
+                        <td class="center">Student Representative (General Member)</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+	
+	<!--FOOTER START-->
+   <!--FOOTER START-->
+   <footer>
+	<!--EDU2 FOOTER CONTANT WRAP START-->
+	<div class="container">
+	  <div class="row">
+		<!--EDU2 FOOTER CONTANT DES START-->
+		<div class="col-md-4">
+		  <div class="widget widget-links">
+			<h5>RESOURCE</h5>
+			<ul>
+			  <!-- <li><a href="#">Eligibility Criteria B.Tech</a></li> -->
+			  <!-- <li><a href="#">Eligibility Criteria Diploma</a></li> -->
+			  <li><a href="Fees Structure.html">Course Fees</a></li>
+			  <li><a href="FAQs.html">FAQ</a></li>
+			  <li><a href="https://www.aicte-india.org/" target="_blank">ATCTE</a></li>
+			  <li><a href="https://www.pci.nic.in/" target="_blank">PCI</a></li>
+			  <li><a href="https://www.coa.gov.in/" target="_blank">COA</a></li>
+			  <li><a href="https://makautwb.ac.in/" target="_blank">MAKAUT</a></li>
+			  <li><a href="privacy-policy.html" target="_blank">PRIVACY POLICY</a></li>
+			</ul>
+		  </div>
+		</div>
+		<!--EDU2 FOOTER CONTANT DES END-->
+
+		<!--EDU2 FOOTER CONTANT DES START-->
+		<div class="col-md-4">
+		  <div class="widget widget-links">
+			<h5>DEGREE COURSES</h5>
+			<ul>
+			  <li><a href="cse.html">Computer Science & Engineering</a></li>
+			  <li><a href="ece.html">Electronics & Communication</a></li>
+			  <li><a href="eee.html">Electrical & Electronics</a></li>
+			  <li><a href="ee.html">Electrical Engineering</a></li>
+			  <li><a href="me.html">Mechanical Engineering</a></li>
+			  <li><a href="ce.html">Civil Engineering</a></li>
+			  <li><a href="b_pharm.html">Bachelor of Pharmacy</a></li>
+			  <li><a href="rrsa.html">Bachelor of Architecture</a></li>
+			</ul>
+		  </div>
+		</div>
+		<!--EDU2 FOOTER CONTANT DES END-->
+
+		<!-- <div class="col-md-3">
+		  <div class="widget widget-links">
+			<h5>DIPLOMA COURSES</h5>
+			<ul>
+			  <li><a href="#">Diploma Electrical Engineering</a></li>
+			  <li><a href="#">Diploma Mechanical Engineering</a></li>
+			  <li><a href="#">Diploma Civil Engineering</a></li>
+			</ul>
+		  </div>
+		</div> -->
+
+		<!--EDU2 FOOTER CONTANT DES START-->
+		<div class="col-md-4">
+		  <div class="widget widget-contact">
+			<h5>POSTAL ADDRESS</h5>
+			<ul>
+			  <li>
+				Sanaka Educational Trust’s
+				<br>
+				 Vill & Post : Malandighi
+				 <br> 
+				 P.S. :
+				Kanksha, Durgapur. Pin : 713212
+			  </li>
+			  <li>Phone : <a href="#">0343-2700085/86</a></li>
+			  <li>Fax : <a href="#">0343-2700082</a></li>
+			  <li>Email : <a href="mailto:info@setgoi.com"> info@setgoi.com</a></li>
+			</ul>
+		  </div>
+		</div>
+		<!--EDU2 FOOTER CONTANT DES END-->
+	  </div>
+	</div>
+  </footer>
+  <!--FOOTER END-->
+	<!--FOOTER END-->
+	<!--COPYRIGHTS START-->
+	<div class="edu2_copyright_wrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="edu2_ft_logo_wrap">
+						<a href="#"><img src="extra-images/SETGOI BOTTOM LOGO 245x69PX.svg" alt="" /></a>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="copyright_des">
+						<span>&copy; All Rights reserved. Powered By
+							<a href="https://sysbean.com/">SYSBEAN</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--COPYRIGHTS START-->
+	</div>    
+	<!-- GetButton.io widget -->
+<script type="text/javascript">
+	(function () {
+		var options = {
+			whatsapp: "919083267441", // WhatsApp number
+			call_to_action: "Message us", // Call to action
+			button_color: "#FF6550", // Color of button
+			position: "left", // Position may be 'right' or 'left'
+		};
+		var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+		var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+		s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+		var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+	})();
+  </script>
+  <!-- /GetButton.io widget -->
+	<script>
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+		
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+		</script>
+		  <script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+			
+			for (i = 0; i < coll.length; i++) {
+			  coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+				  content.style.display = "none";
+				} else {
+				  content.style.display = "block";
+				}
+			  });
+			}
+			</script>
+	  <!--Bootstrap core JavaScript-->
+	  <script src="js/jquery.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	<!--KF KODE WRAPPER WRAP END-->
+	<!--Bootstrap core JavaScript-->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!--Bx-Slider JavaScript-->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<!--Owl Carousel JavaScript-->
+	<script src="js/owl.carousel.min.js"></script>
+	<!--Pretty Photo JavaScript-->
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<!--Full Calender JavaScript-->
+	<script src="js/moment.min.js"></script>
+	<script src="js/fullcalendar.min.js"></script>
+	<script src="js/jquery.downCount.js"></script>
+	<!--Image Filterable JavaScript-->
+	<script src="js/jquery-filterable.js"></script>
+	<!--Accordian JavaScript-->
+	<script src="js/jquery.accordion.js"></script>
+	<!--Number Count (Waypoints) JavaScript-->
+	<script src="js/waypoints-min.js"></script>
+	<!--v ticker-->
+	<script src="js/jquery.vticker.min.js"></script>
+	<!--select menu-->
+	<script src="js/jquery.selectric.min.js"></script>
+	<!--Side Menu-->
+	<script src="js/jquery.sidr.min.js"></script>
+	<!--Custom JavaScript-->
+	<script src="js/custom.js"></script>
+</body>
+
+</html>
